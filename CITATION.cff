@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and this software when using VoxelContext3D."
+type: software
+title: "VoxelContext3D: Semantic Classification of Voxelized Computational Space"
+version: 1.0.0
+repository-code: "https://github.com/BlareTechnologies/SemVoxelSpace"
+authors:
+  - family-names: "Błaszkowski"
+    given-names: "Ł."
+  - family-names: "Borkiewicz"
+    given-names: "P."
+  - family-names: "Hawrot"
+    given-names: "G."
+  - family-names: "Cichoń"
+    given-names: "K."
+  - family-names: "Kulakowski"
+    given-names: "P."
+abstract: "A standalone research runtime and dataset export for semantic voxel classification using geometry, color and aligned model, OpenStreetMap and VLM context masks."
+keywords:
+  - voxel classification
+  - semantic segmentation
+  - residual 3D U-Net
+  - multimodal context

@@ -1,0 +1,82 @@
+[
+  {
+    "label": 0,
+    "name": "background",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "shortcut": "0"
+  },
+  {
+    "label": 1,
+    "name": "buildings",
+    "color": [
+      220,
+      20,
+      60
+    ],
+    "shortcut": "1"
+  },
+  {
+    "label": 2,
+    "name": "roads",
+    "color": [
+      255,
+      215,
+      0
+    ],
+    "shortcut": "2"
+  },
+  {
+    "label": 3,
+    "name": "water",
+    "color": [
+      30,
+      144,
+      255
+    ],
+    "shortcut": "3"
+  },
+  {
+    "label": 4,
+    "name": "barren",
+    "color": [
+      160,
+      82,
+      45
+    ],
+    "shortcut": "4"
+  },
+  {
+    "label": 5,
+    "name": "forests",
+    "color": [
+      34,
+      139,
+      34
+    ],
+    "shortcut": "5"
+  },
+  {
+    "label": 6,
+    "name": "grass / agriculture",
+    "color": [
+      124,
+      252,
+      0
+    ],
+    "shortcut": "6"
+  },
+  {
+    "label": 7,
+    "name": "metal",
+    "color": [
+      176,
+      196,
+      222
+    ],
+    "shortcut": "7"
+  }
+]

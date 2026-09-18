@@ -1,0 +1,1614 @@
+{
+  "updatedAt": "2026-06-21T20:06:46Z",
+  "classes": [
+    "background",
+    "buildings",
+    "roads",
+    "water",
+    "barren",
+    "forests",
+    "grass / agriculture",
+    "metal"
+  ],
+  "epochHistory": [
+    {
+      "epoch": 1,
+      "trainLoss": 1.594338,
+      "valLoss": 1.573838,
+      "learningRate": 3.3333333333333335e-05,
+      "valAccuracy": 0.846,
+      "perClassIoU": [
+        0.0,
+        0.8446,
+        0.4802,
+        0.7223,
+        0.3998,
+        0.7914,
+        0.6194,
+        0.3689
+      ],
+      "meanIoU": 0.5283,
+      "perClassAccuracy": [
+        0.0,
+        0.9132,
+        0.5579,
+        0.8528,
+        0.6395,
+        0.871,
+        0.7507,
+        0.6703
+      ],
+      "meanClassAccuracy": 0.6569,
+      "selectionMiou": 0.6038,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 2,
+      "trainLoss": 0.973662,
+      "valLoss": 1.403495,
+      "learningRate": 6.666666666666667e-05,
+      "valAccuracy": 0.8452,
+      "perClassIoU": [
+        0.0,
+        0.8411,
+        0.5221,
+        0.7266,
+        0.4231,
+        0.8143,
+        0.6111,
+        0.329
+      ],
+      "meanIoU": 0.5334,
+      "perClassAccuracy": [
+        0.0,
+        0.8886,
+        0.6302,
+        0.7893,
+        0.7468,
+        0.8597,
+        0.7859,
+        0.8451
+      ],
+      "meanClassAccuracy": 0.6932,
+      "selectionMiou": 0.6096,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 3,
+      "trainLoss": 0.90193,
+      "valLoss": 1.479763,
+      "learningRate": 0.0001,
+      "valAccuracy": 0.856,
+      "perClassIoU": [
+        0.0,
+        0.8622,
+        0.539,
+        0.5905,
+        0.4033,
+        0.8094,
+        0.5818,
+        0.466
+      ],
+      "meanIoU": 0.5315,
+      "perClassAccuracy": [
+        0.0,
+        0.9075,
+        0.7683,
+        0.6406,
+        0.5479,
+        0.9666,
+        0.661,
+        0.7827
+      ],
+      "meanClassAccuracy": 0.6593,
+      "selectionMiou": 0.6075,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 4,
+      "trainLoss": 0.870668,
+      "valLoss": 1.453857,
+      "learningRate": 9.981999252941288e-05,
+      "valAccuracy": 0.8618,
+      "perClassIoU": [
+        0.0,
+        0.8551,
+        0.6299,
+        0.7849,
+        0.397,
+        0.7833,
+        0.688,
+        0.3956
+      ],
+      "meanIoU": 0.5667,
+      "perClassAccuracy": [
+        0.0,
+        0.8924,
+        0.7571,
+        0.8142,
+        0.5227,
+        0.9564,
+        0.8798,
+        0.7733
+      ],
+      "meanClassAccuracy": 0.6995,
+      "selectionMiou": 0.6477,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 5,
+      "trainLoss": 0.853255,
+      "valLoss": 1.39028,
+      "learningRate": 9.928103089042906e-05,
+      "valAccuracy": 0.87,
+      "perClassIoU": [
+        0.0,
+        0.8575,
+        0.6295,
+        0.6993,
+        0.4328,
+        0.8389,
+        0.6685,
+        0.445
+      ],
+      "meanIoU": 0.5714,
+      "perClassAccuracy": [
+        0.0,
+        0.9282,
+        0.7084,
+        0.8553,
+        0.608,
+        0.896,
+        0.8156,
+        0.8338
+      ],
+      "meanClassAccuracy": 0.7057,
+      "selectionMiou": 0.6531,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 6,
+      "trainLoss": 0.780187,
+      "valLoss": 1.335476,
+      "learningRate": 9.838699829460748e-05,
+      "valAccuracy": 0.8639,
+      "perClassIoU": [
+        0.0,
+        0.8691,
+        0.6032,
+        0.7424,
+        0.3874,
+        0.8064,
+        0.6433,
+        0.3686
+      ],
+      "meanIoU": 0.5525,
+      "perClassAccuracy": [
+        0.0,
+        0.9037,
+        0.7216,
+        0.7534,
+        0.5005,
+        0.9536,
+        0.9178,
+        0.8918
+      ],
+      "meanClassAccuracy": 0.7053,
+      "selectionMiou": 0.6315,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 7,
+      "trainLoss": 0.677875,
+      "valLoss": 1.064638,
+      "learningRate": 9.714433626728775e-05,
+      "valAccuracy": 0.8647,
+      "perClassIoU": [
+        0.0,
+        0.8531,
+        0.6012,
+        0.7771,
+        0.4447,
+        0.8359,
+        0.6898,
+        0.3746
+      ],
+      "meanIoU": 0.572,
+      "perClassAccuracy": [
+        0.0,
+        0.8876,
+        0.685,
+        0.9263,
+        0.7366,
+        0.8971,
+        0.8765,
+        0.7383
+      ],
+      "meanClassAccuracy": 0.7184,
+      "selectionMiou": 0.6538,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 8,
+      "trainLoss": 0.664554,
+      "valLoss": 1.099271,
+      "learningRate": 9.556199821685225e-05,
+      "valAccuracy": 0.8815,
+      "perClassIoU": [
+        0.0,
+        0.8762,
+        0.6248,
+        0.755,
+        0.4631,
+        0.8516,
+        0.6902,
+        0.4668
+      ],
+      "meanIoU": 0.591,
+      "perClassAccuracy": [
+        0.0,
+        0.9242,
+        0.8275,
+        0.8956,
+        0.6297,
+        0.9142,
+        0.8064,
+        0.8365
+      ],
+      "meanClassAccuracy": 0.7293,
+      "selectionMiou": 0.6754,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 9,
+      "trainLoss": 0.656044,
+      "valLoss": 1.093623,
+      "learningRate": 9.365138492521356e-05,
+      "valAccuracy": 0.8708,
+      "perClassIoU": [
+        0.0,
+        0.8666,
+        0.6102,
+        0.7582,
+        0.4342,
+        0.8455,
+        0.6868,
+        0.4358
+      ],
+      "meanIoU": 0.5797,
+      "perClassAccuracy": [
+        0.0,
+        0.8895,
+        0.7739,
+        0.9088,
+        0.6709,
+        0.9308,
+        0.8454,
+        0.8529
+      ],
+      "meanClassAccuracy": 0.734,
+      "selectionMiou": 0.6625,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 10,
+      "trainLoss": 0.644824,
+      "valLoss": 1.134516,
+      "learningRate": 9.142626240491953e-05,
+      "valAccuracy": 0.8701,
+      "perClassIoU": [
+        0.0,
+        0.8714,
+        0.6314,
+        0.7542,
+        0.4305,
+        0.8356,
+        0.6244,
+        0.4386
+      ],
+      "meanIoU": 0.5733,
+      "perClassAccuracy": [
+        0.0,
+        0.8972,
+        0.7322,
+        0.8767,
+        0.628,
+        0.9281,
+        0.9043,
+        0.8307
+      ],
+      "meanClassAccuracy": 0.7247,
+      "selectionMiou": 0.6552,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 11,
+      "trainLoss": 0.63005,
+      "valLoss": 1.097851,
+      "learningRate": 8.890266271471745e-05,
+      "valAccuracy": 0.8683,
+      "perClassIoU": [
+        0.0,
+        0.867,
+        0.5753,
+        0.7297,
+        0.4409,
+        0.856,
+        0.6564,
+        0.3121
+      ],
+      "meanIoU": 0.5547,
+      "perClassAccuracy": [
+        0.0,
+        0.891,
+        0.856,
+        0.8925,
+        0.6135,
+        0.9386,
+        0.7766,
+        0.8747
+      ],
+      "meanClassAccuracy": 0.7304,
+      "selectionMiou": 0.6339,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 12,
+      "trainLoss": 0.623729,
+      "valLoss": 1.243136,
+      "learningRate": 8.609876844820337e-05,
+      "valAccuracy": 0.8805,
+      "perClassIoU": [
+        0.0,
+        0.8779,
+        0.6518,
+        0.7837,
+        0.4418,
+        0.8404,
+        0.709,
+        0.562
+      ],
+      "meanIoU": 0.6083,
+      "perClassAccuracy": [
+        0.0,
+        0.9059,
+        0.731,
+        0.844,
+        0.6658,
+        0.9512,
+        0.8813,
+        0.7904
+      ],
+      "meanClassAccuracy": 0.7212,
+      "selectionMiou": 0.6952,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 13,
+      "trainLoss": 0.617674,
+      "valLoss": 1.081306,
+      "learningRate": 8.303478172781862e-05,
+      "valAccuracy": 0.8827,
+      "perClassIoU": [
+        0.0,
+        0.8828,
+        0.6141,
+        0.7815,
+        0.4144,
+        0.8445,
+        0.6887,
+        0.538
+      ],
+      "meanIoU": 0.5955,
+      "perClassAccuracy": [
+        0.0,
+        0.9425,
+        0.8677,
+        0.8806,
+        0.5027,
+        0.9051,
+        0.8808,
+        0.751
+      ],
+      "meanClassAccuracy": 0.7163,
+      "selectionMiou": 0.6806,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 14,
+      "trainLoss": 0.614476,
+      "valLoss": 1.135053,
+      "learningRate": 7.973277864809467e-05,
+      "valAccuracy": 0.8748,
+      "perClassIoU": [
+        0.0,
+        0.8777,
+        0.6117,
+        0.7637,
+        0.4244,
+        0.841,
+        0.6537,
+        0.5235
+      ],
+      "meanIoU": 0.587,
+      "perClassAccuracy": [
+        0.0,
+        0.9066,
+        0.856,
+        0.8893,
+        0.5972,
+        0.9255,
+        0.8456,
+        0.7455
+      ],
+      "meanClassAccuracy": 0.7207,
+      "selectionMiou": 0.6708,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 15,
+      "trainLoss": 0.597371,
+      "valLoss": 1.220377,
+      "learningRate": 7.621655021688615e-05,
+      "valAccuracy": 0.8775,
+      "perClassIoU": [
+        0.0,
+        0.8795,
+        0.6652,
+        0.7637,
+        0.4085,
+        0.8486,
+        0.6777,
+        0.4783
+      ],
+      "meanIoU": 0.5902,
+      "perClassAccuracy": [
+        0.0,
+        0.9058,
+        0.7784,
+        0.8293,
+        0.6015,
+        0.9512,
+        0.8961,
+        0.8029
+      ],
+      "meanClassAccuracy": 0.7207,
+      "selectionMiou": 0.6745,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 16,
+      "trainLoss": 0.592331,
+      "valLoss": 1.073474,
+      "learningRate": 7.251143094061411e-05,
+      "valAccuracy": 0.8752,
+      "perClassIoU": [
+        0.0,
+        0.8661,
+        0.6523,
+        0.7817,
+        0.4584,
+        0.8518,
+        0.6772,
+        0.4849
+      ],
+      "meanIoU": 0.5966,
+      "perClassAccuracy": [
+        0.0,
+        0.8907,
+        0.8211,
+        0.8643,
+        0.733,
+        0.9225,
+        0.8361,
+        0.8017
+      ],
+      "meanClassAccuracy": 0.7337,
+      "selectionMiou": 0.6818,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 17,
+      "trainLoss": 0.589217,
+      "valLoss": 1.103715,
+      "learningRate": 6.864411628856668e-05,
+      "valAccuracy": 0.8734,
+      "perClassIoU": [
+        0.0,
+        0.8723,
+        0.6512,
+        0.7847,
+        0.4077,
+        0.8465,
+        0.6537,
+        0.5115
+      ],
+      "meanIoU": 0.5909,
+      "perClassAccuracy": [
+        0.0,
+        0.8966,
+        0.818,
+        0.866,
+        0.6122,
+        0.9462,
+        0.8451,
+        0.8335
+      ],
+      "meanClassAccuracy": 0.7272,
+      "selectionMiou": 0.6754,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 18,
+      "trainLoss": 0.582196,
+      "valLoss": 1.087829,
+      "learningRate": 6.46424703514312e-05,
+      "valAccuracy": 0.8716,
+      "perClassIoU": [
+        0.0,
+        0.8685,
+        0.607,
+        0.7834,
+        0.4437,
+        0.8497,
+        0.6546,
+        0.5108
+      ],
+      "meanIoU": 0.5897,
+      "perClassAccuracy": [
+        0.0,
+        0.9001,
+        0.6753,
+        0.8822,
+        0.7285,
+        0.9005,
+        0.9122,
+        0.7843
+      ],
+      "meanClassAccuracy": 0.7229,
+      "selectionMiou": 0.674,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 19,
+      "trainLoss": 0.564215,
+      "valLoss": 1.078711,
+      "learningRate": 6.0535325079882245e-05,
+      "valAccuracy": 0.8811,
+      "perClassIoU": [
+        0.0,
+        0.8748,
+        0.659,
+        0.7599,
+        0.4505,
+        0.8463,
+        0.6952,
+        0.5402
+      ],
+      "meanIoU": 0.6032,
+      "perClassAccuracy": [
+        0.0,
+        0.9162,
+        0.8018,
+        0.8903,
+        0.6444,
+        0.9178,
+        0.8807,
+        0.7056
+      ],
+      "meanClassAccuracy": 0.7196,
+      "selectionMiou": 0.6894,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 20,
+      "trainLoss": 0.568341,
+      "valLoss": 1.11141,
+      "learningRate": 5.6352272549716315e-05,
+      "valAccuracy": 0.8807,
+      "perClassIoU": [
+        0.0,
+        0.8779,
+        0.6622,
+        0.7725,
+        0.4477,
+        0.8474,
+        0.6868,
+        0.4886
+      ],
+      "meanIoU": 0.5979,
+      "perClassAccuracy": [
+        0.0,
+        0.9106,
+        0.7466,
+        0.8801,
+        0.664,
+        0.9341,
+        0.8817,
+        0.7451
+      ],
+      "meanClassAccuracy": 0.7203,
+      "selectionMiou": 0.6833,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 21,
+      "trainLoss": 0.557774,
+      "valLoss": 1.146839,
+      "learningRate": 5.212345175026768e-05,
+      "valAccuracy": 0.8842,
+      "perClassIoU": [
+        0.0,
+        0.8839,
+        0.6693,
+        0.7603,
+        0.4758,
+        0.8433,
+        0.6931,
+        0.471
+      ],
+      "meanIoU": 0.5996,
+      "perClassAccuracy": [
+        0.0,
+        0.9048,
+        0.7865,
+        0.8665,
+        0.695,
+        0.9503,
+        0.855,
+        0.7339
+      ],
+      "meanClassAccuracy": 0.724,
+      "selectionMiou": 0.6852,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 22,
+      "trainLoss": 0.551861,
+      "valLoss": 1.230524,
+      "learningRate": 4.787933143229959e-05,
+      "valAccuracy": 0.8839,
+      "perClassIoU": [
+        0.0,
+        0.883,
+        0.6774,
+        0.7853,
+        0.4461,
+        0.858,
+        0.6713,
+        0.4561
+      ],
+      "meanIoU": 0.5971,
+      "perClassAccuracy": [
+        0.0,
+        0.9136,
+        0.7903,
+        0.8622,
+        0.6487,
+        0.9426,
+        0.8811,
+        0.6639
+      ],
+      "meanClassAccuracy": 0.7128,
+      "selectionMiou": 0.6825,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 23,
+      "trainLoss": 0.537752,
+      "valLoss": 1.124403,
+      "learningRate": 4.365049057995677e-05,
+      "valAccuracy": 0.8776,
+      "perClassIoU": [
+        0.0,
+        0.8775,
+        0.6521,
+        0.768,
+        0.4437,
+        0.8507,
+        0.6819,
+        0.4667
+      ],
+      "meanIoU": 0.5926,
+      "perClassAccuracy": [
+        0.0,
+        0.9015,
+        0.7472,
+        0.8854,
+        0.6929,
+        0.9228,
+        0.893,
+        0.8417
+      ],
+      "meanClassAccuracy": 0.7356,
+      "selectionMiou": 0.6772,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 24,
+      "trainLoss": 0.540251,
+      "valLoss": 1.091322,
+      "learningRate": 3.946739808848405e-05,
+      "valAccuracy": 0.8792,
+      "perClassIoU": [
+        0.0,
+        0.8806,
+        0.6446,
+        0.7672,
+        0.4324,
+        0.8545,
+        0.6731,
+        0.5012
+      ],
+      "meanIoU": 0.5942,
+      "perClassAccuracy": [
+        0.0,
+        0.9028,
+        0.8287,
+        0.8988,
+        0.6351,
+        0.931,
+        0.8993,
+        0.7215
+      ],
+      "meanClassAccuracy": 0.7271,
+      "selectionMiou": 0.6791,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 25,
+      "trainLoss": 0.542495,
+      "valLoss": 1.148011,
+      "learningRate": 3.5360193235137805e-05,
+      "valAccuracy": 0.8802,
+      "perClassIoU": [
+        0.0,
+        0.8842,
+        0.6502,
+        0.7744,
+        0.4259,
+        0.8431,
+        0.6696,
+        0.4643
+      ],
+      "meanIoU": 0.589,
+      "perClassAccuracy": [
+        0.0,
+        0.9073,
+        0.8301,
+        0.876,
+        0.582,
+        0.9509,
+        0.891,
+        0.7411
+      ],
+      "meanClassAccuracy": 0.7223,
+      "selectionMiou": 0.6731,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 26,
+      "trainLoss": 0.518269,
+      "valLoss": 1.154085,
+      "learningRate": 3.135846852500282e-05,
+      "valAccuracy": 0.8834,
+      "perClassIoU": [
+        0.0,
+        0.8852,
+        0.6707,
+        0.7775,
+        0.4311,
+        0.8554,
+        0.6757,
+        0.4815
+      ],
+      "meanIoU": 0.5971,
+      "perClassAccuracy": [
+        0.0,
+        0.9192,
+        0.7884,
+        0.8774,
+        0.6154,
+        0.9337,
+        0.8973,
+        0.7058
+      ],
+      "meanClassAccuracy": 0.7171,
+      "selectionMiou": 0.6824,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 27,
+      "trainLoss": 0.527563,
+      "valLoss": 1.190674,
+      "learningRate": 2.7491056476314858e-05,
+      "valAccuracy": 0.8822,
+      "perClassIoU": [
+        0.0,
+        0.8859,
+        0.6343,
+        0.7776,
+        0.4313,
+        0.8529,
+        0.6839,
+        0.5032
+      ],
+      "meanIoU": 0.5961,
+      "perClassAccuracy": [
+        0.0,
+        0.9124,
+        0.8277,
+        0.8527,
+        0.6084,
+        0.942,
+        0.8917,
+        0.721
+      ],
+      "meanClassAccuracy": 0.7195,
+      "selectionMiou": 0.6813,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 28,
+      "trainLoss": 0.523979,
+      "valLoss": 1.177482,
+      "learningRate": 2.378582188150632e-05,
+      "valAccuracy": 0.8808,
+      "perClassIoU": [
+        0.0,
+        0.8827,
+        0.6456,
+        0.7618,
+        0.4235,
+        0.8511,
+        0.695,
+        0.512
+      ],
+      "meanIoU": 0.5965,
+      "perClassAccuracy": [
+        0.0,
+        0.9122,
+        0.8275,
+        0.8752,
+        0.6073,
+        0.9357,
+        0.8839,
+        0.7125
+      ],
+      "meanClassAccuracy": 0.7193,
+      "selectionMiou": 0.6817,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 29,
+      "trainLoss": 0.520105,
+      "valLoss": 1.190914,
+      "learningRate": 2.0269461040738015e-05,
+      "valAccuracy": 0.8804,
+      "perClassIoU": [
+        0.0,
+        0.8798,
+        0.6521,
+        0.7685,
+        0.4458,
+        0.8556,
+        0.7023,
+        0.5217
+      ],
+      "meanIoU": 0.6032,
+      "perClassAccuracy": [
+        0.0,
+        0.9048,
+        0.7867,
+        0.8717,
+        0.712,
+        0.9289,
+        0.8423,
+        0.7466
+      ],
+      "meanClassAccuracy": 0.7241,
+      "selectionMiou": 0.6894,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 30,
+      "trainLoss": 0.512973,
+      "valLoss": 1.163319,
+      "learningRate": 1.6967309414444938e-05,
+      "valAccuracy": 0.876,
+      "perClassIoU": [
+        0.0,
+        0.878,
+        0.6487,
+        0.7664,
+        0.4161,
+        0.8365,
+        0.6738,
+        0.5271
+      ],
+      "meanIoU": 0.5933,
+      "perClassAccuracy": [
+        0.0,
+        0.8944,
+        0.8142,
+        0.8912,
+        0.5988,
+        0.955,
+        0.8964,
+        0.7362
+      ],
+      "meanClassAccuracy": 0.7233,
+      "selectionMiou": 0.6781,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 31,
+      "trainLoss": 0.506339,
+      "valLoss": 1.186381,
+      "learningRate": 1.3903159080763118e-05,
+      "valAccuracy": 0.8765,
+      "perClassIoU": [
+        0.0,
+        0.8794,
+        0.6497,
+        0.7664,
+        0.418,
+        0.8497,
+        0.661,
+        0.4798
+      ],
+      "meanIoU": 0.588,
+      "perClassAccuracy": [
+        0.0,
+        0.9006,
+        0.7758,
+        0.8768,
+        0.6206,
+        0.9425,
+        0.9034,
+        0.785
+      ],
+      "meanClassAccuracy": 0.7256,
+      "selectionMiou": 0.672,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 32,
+      "trainLoss": 0.502286,
+      "valLoss": 1.148271,
+      "learningRate": 1.1099087313061607e-05,
+      "valAccuracy": 0.8794,
+      "perClassIoU": [
+        0.0,
+        0.8849,
+        0.6459,
+        0.7574,
+        0.4111,
+        0.8531,
+        0.6674,
+        0.4952
+      ],
+      "meanIoU": 0.5894,
+      "perClassAccuracy": [
+        0.0,
+        0.9116,
+        0.8107,
+        0.881,
+        0.5848,
+        0.9396,
+        0.8876,
+        0.7735
+      ],
+      "meanClassAccuracy": 0.7236,
+      "selectionMiou": 0.6736,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 33,
+      "trainLoss": 0.506581,
+      "valLoss": 1.211232,
+      "learningRate": 8.575297512681829e-06,
+      "valAccuracy": 0.8814,
+      "perClassIoU": [
+        0.0,
+        0.8885,
+        0.6419,
+        0.7842,
+        0.4136,
+        0.8497,
+        0.6894,
+        0.506
+      ],
+      "meanIoU": 0.5967,
+      "perClassAccuracy": [
+        0.0,
+        0.9128,
+        0.8106,
+        0.8839,
+        0.5998,
+        0.9469,
+        0.8584,
+        0.77
+      ],
+      "meanClassAccuracy": 0.7228,
+      "selectionMiou": 0.6819,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 34,
+      "trainLoss": 0.512757,
+      "valLoss": 1.227417,
+      "learningRate": 6.3499736429680435e-06,
+      "valAccuracy": 0.8802,
+      "perClassIoU": [
+        0.0,
+        0.8857,
+        0.6374,
+        0.7575,
+        0.4231,
+        0.8481,
+        0.6814,
+        0.5438
+      ],
+      "meanIoU": 0.5971,
+      "perClassAccuracy": [
+        0.0,
+        0.9109,
+        0.7344,
+        0.8819,
+        0.624,
+        0.9478,
+        0.8889,
+        0.7544
+      ],
+      "meanClassAccuracy": 0.7178,
+      "selectionMiou": 0.6824,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 35,
+      "trainLoss": 0.510901,
+      "valLoss": 1.172708,
+      "learningRate": 4.4391492133947225e-06,
+      "valAccuracy": 0.8804,
+      "perClassIoU": [
+        0.0,
+        0.8847,
+        0.6521,
+        0.7738,
+        0.4179,
+        0.8473,
+        0.6882,
+        0.4941
+      ],
+      "meanIoU": 0.5948,
+      "perClassAccuracy": [
+        0.0,
+        0.9053,
+        0.8293,
+        0.885,
+        0.5987,
+        0.9514,
+        0.8759,
+        0.7601
+      ],
+      "meanClassAccuracy": 0.7257,
+      "selectionMiou": 0.6797,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 36,
+      "trainLoss": 0.511429,
+      "valLoss": 1.154439,
+      "learningRate": 2.856591757763366e-06,
+      "valAccuracy": 0.8828,
+      "perClassIoU": [
+        0.0,
+        0.8876,
+        0.6538,
+        0.7661,
+        0.4292,
+        0.8532,
+        0.6811,
+        0.4951
+      ],
+      "meanIoU": 0.5958,
+      "perClassAccuracy": [
+        0.0,
+        0.9114,
+        0.8038,
+        0.885,
+        0.6103,
+        0.9454,
+        0.8904,
+        0.7619
+      ],
+      "meanClassAccuracy": 0.726,
+      "selectionMiou": 0.6809,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 37,
+      "trainLoss": 0.508245,
+      "valLoss": 1.164609,
+      "learningRate": 1.61370363880603e-06,
+      "valAccuracy": 0.8803,
+      "perClassIoU": [
+        0.0,
+        0.8852,
+        0.6505,
+        0.7663,
+        0.4248,
+        0.8491,
+        0.6783,
+        0.5121
+      ],
+      "meanIoU": 0.5958,
+      "perClassAccuracy": [
+        0.0,
+        0.9089,
+        0.7791,
+        0.8822,
+        0.6236,
+        0.9399,
+        0.8977,
+        0.7599
+      ],
+      "meanClassAccuracy": 0.7239,
+      "selectionMiou": 0.6809,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 38,
+      "trainLoss": 0.504469,
+      "valLoss": 1.156907,
+      "learningRate": 7.194398939005087e-07,
+      "valAccuracy": 0.8821,
+      "perClassIoU": [
+        0.0,
+        0.887,
+        0.6538,
+        0.7673,
+        0.4287,
+        0.8511,
+        0.6828,
+        0.5036
+      ],
+      "meanIoU": 0.5968,
+      "perClassAccuracy": [
+        0.0,
+        0.9122,
+        0.7957,
+        0.8828,
+        0.6188,
+        0.939,
+        0.8943,
+        0.7583
+      ],
+      "meanClassAccuracy": 0.7251,
+      "selectionMiou": 0.682,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 39,
+      "trainLoss": 0.502151,
+      "valLoss": 1.167136,
+      "learningRate": 1.8024371382086013e-07,
+      "valAccuracy": 0.8811,
+      "perClassIoU": [
+        0.0,
+        0.8857,
+        0.6524,
+        0.7687,
+        0.4259,
+        0.8501,
+        0.6816,
+        0.5149
+      ],
+      "meanIoU": 0.5974,
+      "perClassAccuracy": [
+        0.0,
+        0.9089,
+        0.7858,
+        0.8812,
+        0.6239,
+        0.943,
+        0.8936,
+        0.752
+      ],
+      "meanClassAccuracy": 0.7235,
+      "selectionMiou": 0.6828,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "epoch": 40,
+      "trainLoss": 0.509009,
+      "valLoss": 1.168964,
+      "learningRate": 1.9400209216868804e-14,
+      "valAccuracy": 0.881,
+      "perClassIoU": [
+        0.0,
+        0.8858,
+        0.6528,
+        0.7688,
+        0.4247,
+        0.8495,
+        0.6808,
+        0.5141
+      ],
+      "meanIoU": 0.5971,
+      "perClassAccuracy": [
+        0.0,
+        0.9089,
+        0.7882,
+        0.8807,
+        0.62,
+        0.9434,
+        0.8944,
+        0.7516
+      ],
+      "meanClassAccuracy": 0.7234,
+      "selectionMiou": 0.6824,
+      "selectionClasses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "bestEpochMetrics": {
+    "epoch": 12,
+    "trainLoss": 0.623729,
+    "valLoss": 1.243136,
+    "learningRate": 8.609876844820337e-05,
+    "valAccuracy": 0.8805,
+    "perClassIoU": [
+      0.0,
+      0.8779,
+      0.6518,
+      0.7837,
+      0.4418,
+      0.8404,
+      0.709,
+      0.562
+    ],
+    "meanIoU": 0.6083,
+    "perClassAccuracy": [
+      0.0,
+      0.9059,
+      0.731,
+      0.844,
+      0.6658,
+      0.9512,
+      0.8813,
+      0.7904
+    ],
+    "meanClassAccuracy": 0.7212,
+    "selectionMiou": 0.6952,
+    "selectionClasses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

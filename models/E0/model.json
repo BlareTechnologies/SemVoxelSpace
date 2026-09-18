@@ -1,0 +1,50 @@
+{
+  "variant": "E0",
+  "source_job": "e3water_ladder_E0",
+  "architecture": "res_unet3d",
+  "in_channels": 10,
+  "num_classes": 8,
+  "base_channels": 32,
+  "epoch": 39,
+  "seed": 1337,
+  "chunk_size_xyz": [
+    32,
+    32,
+    64
+  ],
+  "stride_xyz": [
+    8,
+    8,
+    64
+  ],
+  "color_normalization": "grayworld",
+  "input_channel_config": {
+    "version": 1,
+    "baseInputs": {
+      "occupancy": true,
+      "rgb": true,
+      "vehiclePrior": false
+    },
+    "colorFeatures": [
+      "green_chromaticity",
+      "excess_green",
+      "green_dominance",
+      "saturation",
+      "normalized_green_red",
+      "normalized_green_blue"
+    ],
+    "maskChannels": []
+  },
+  "class_names": [
+    "background",
+    "buildings",
+    "roads",
+    "water",
+    "barren",
+    "forests",
+    "grass / agriculture",
+    "metal"
+  ],
+  "voxel_size_m": 0.5,
+  "parameter_count": 5695464
+}

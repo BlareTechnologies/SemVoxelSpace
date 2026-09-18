@@ -1,0 +1,145 @@
+{
+  "variant": "E3",
+  "source_job": "20260621T164812_train_e3water",
+  "architecture": "res_unet3d",
+  "in_channels": 18,
+  "num_classes": 8,
+  "base_channels": 32,
+  "epoch": 12,
+  "seed": 1337,
+  "chunk_size_xyz": [
+    32,
+    32,
+    64
+  ],
+  "stride_xyz": [
+    8,
+    8,
+    64
+  ],
+  "color_normalization": "grayworld",
+  "input_channel_config": {
+    "version": 1,
+    "baseInputs": {
+      "occupancy": true,
+      "rgb": true,
+      "vehiclePrior": false
+    },
+    "colorFeatures": [
+      "green_chromaticity",
+      "excess_green",
+      "green_dominance",
+      "saturation",
+      "normalized_green_red",
+      "normalized_green_blue"
+    ],
+    "maskChannels": [
+      {
+        "id": "model_buildings",
+        "name": "Model buildings",
+        "weight": 0.5,
+        "items": [
+          {
+            "source": "model",
+            "classes": [
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "id": "model_forests",
+        "name": "Model forests",
+        "weight": 0.5,
+        "items": [
+          {
+            "source": "model",
+            "classes": [
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "id": "llm_metal",
+        "name": "LLM metal",
+        "weight": 0.5,
+        "items": [
+          {
+            "source": "llm",
+            "classes": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "id": "llm_barren",
+        "name": "LLM barren",
+        "weight": 0.5,
+        "items": [
+          {
+            "source": "llm",
+            "classes": [
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "id": "llm_grass_agriculture",
+        "name": "LLM grass / agriculture",
+        "weight": 0.5,
+        "items": [
+          {
+            "source": "llm",
+            "classes": [
+              6
+            ]
+          }
+        ]
+      }
+    ],
+    "osmContext": {
+      "provider": "overpass",
+      "missingPolicy": "error",
+      "roadWidthM": 4.0,
+      "waterwayWidthM": 6.0,
+      "riverWidthM": 24.0,
+      "fetchMarginM": 80.0,
+      "surfaceHeightM": 0.0
+    },
+    "osmChannels": [
+      {
+        "id": "osm_building",
+        "name": "OSM building footprint",
+        "layer": "building",
+        "weight": 0.5
+      },
+      {
+        "id": "osm_road",
+        "name": "OSM road footprint",
+        "layer": "road",
+        "weight": 0.5
+      },
+      {
+        "id": "osm_water",
+        "name": "OSM water footprint",
+        "layer": "water",
+        "weight": 0.5
+      }
+    ]
+  },
+  "class_names": [
+    "background",
+    "buildings",
+    "roads",
+    "water",
+    "barren",
+    "forests",
+    "grass / agriculture",
+    "metal"
+  ],
+  "voxel_size_m": 0.5,
+  "parameter_count": 5702632
+}

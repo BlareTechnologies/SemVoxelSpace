@@ -1,0 +1,40 @@
+{
+  "train": [
+    "aoi_19700101T000138Z__tile_x2_y2",
+    "aoi_19700101T000143Z__tile_x12_y4",
+    "aoi_19700101T000143Z__tile_x23_y4",
+    "aoi_19700101T000203Z__tile_x1_y4",
+    "aoi_19700101T000203Z__tile_x3_y3",
+    "aoi_19700101T000203Z__tile_x4_y3",
+    "aoi_19700101T000222Z__tile_x1_y3",
+    "aoi_19700101T000222Z__tile_x1_y6",
+    "aoi_19700101T000222Z__tile_x2_y3",
+    "aoi_19700101T000404Z__tile_x2_y1",
+    "aoi_19700101T000404Z__tile_x2_y2",
+    "aoi_19700101T000404Z__tile_x2_y3",
+    "aoi_19700101T000513Z__tile_x5_y6",
+    "aoi_19700101T000513Z__tile_x6_y2",
+    "aoi_19700101T000513Z__tile_x6_y6",
+    "aoi_20260331T161435Z__tile_x1_y1"
+  ],
+  "validation": [
+    "aoi_20260403T100225Z__tile_x1_y1"
+  ],
+  "test": [
+    "aoi_19700101T000043Z__tile_x1_y3",
+    "aoi_19700101T000043Z__tile_x2_y2",
+    "aoi_19700101T000043Z__tile_x3_y1",
+    "aoi_19700101T000338Z__tile_x2_y1",
+    "aoi_19700101T000338Z__tile_x3_y1",
+    "aoi_19700101T000338Z__tile_x4_y1",
+    "aoi_19700101T000659Z__tile_x2_y5",
+    "tile_x1_y1",
+    "tile_x2_y1",
+    "tile_x3_y1"
+  ],
+  "additional": [
+    "aoi_19700101T000215Z__tile_x3_y8",
+    "aoi_19700101T000215Z__tile_x3_y9",
+    "aoi_19700101T000215Z__tile_x4_y9"
+  ]
+}

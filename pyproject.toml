@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voxel-context3d"
+version = "1.0.0"
+description = "Portable inference for context-guided semantic voxel classification"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "torch>=2.5,<3"]
+license = "BSD-3-Clause"
+license-files = ["LICENSE", "UPSTREAM_LICENSE.txt", "NOTICE.md", "LICENSING.md", "LICENSE-MODEL.md"]
+
+[project.urls]
+Repository = "https://github.com/BlareTechnologies/SemVoxelSpace"
+Issues = "https://github.com/BlareTechnologies/SemVoxelSpace/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+export = ["Pillow>=10"]
+
+[project.scripts]
+voxel-context = "voxel_context.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

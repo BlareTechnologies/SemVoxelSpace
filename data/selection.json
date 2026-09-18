@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "scope": "sample_only",
+  "requested_tiles_per_city": 3,
+  "source_ready_tiles": 175,
+  "reference_test_tile_count": 25,
+  "policy": "Ready tiles only; cities in the original 175-tile corpus; natural X/Y order, round-robin across acquisition areas; no metric-based selection. Include all available ready tiles if a city has fewer than three.",
+  "city_aliases": {
+    "los_angeles2": "los-angeles",
+    "qualitytest2": "maceio",
+    "maciejo": "maceio",
+    "maciejo2": "maceio",
+    "tokyo11": "tokyo",
+    "berlin2": "berlin",
+    "newyork8": "new-york",
+    "paris3": "paris",
+    "manchaster1": "manchester",
+    "london1": "london",
+    "stockholm": "stockholm",
+    "rome1": "rome"
+  },
+  "cities": [
+    {
+      "city": "berlin",
+      "city_name": "Berlin",
+      "available_ready": 8,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "bydgoszcz",
+      "city_name": "Bydgoszcz",
+      "available_ready": 13,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "london",
+      "city_name": "London",
+      "available_ready": 7,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "los-angeles",
+      "city_name": "Los Angeles",
+      "available_ready": 6,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "maceio",
+      "city_name": "Maceió",
+      "available_ready": 92,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "manchester",
+      "city_name": "Manchester",
+      "available_ready": 5,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "new-york",
+      "city_name": "New York",
+      "available_ready": 9,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "paris",
+      "city_name": "Paris",
+      "available_ready": 25,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "rome",
+      "city_name": "Rome",
+      "available_ready": 1,
+      "selected": 1,
+      "shortfall": 2
+    },
+    {
+      "city": "stockholm",
+      "city_name": "Stockholm",
+      "available_ready": 7,
+      "selected": 3,
+      "shortfall": 0
+    },
+    {
+      "city": "tokyo",
+      "city_name": "Tokyo",
+      "available_ready": 2,
+      "selected": 2,
+      "shortfall": 1
+    }
+  ],
+  "tiles": [
+    {
+      "id": "aoi_19700101T000203Z__tile_x1_y4",
+      "city": "berlin",
+      "city_name": "Berlin"
+    },
+    {
+      "id": "aoi_19700101T000203Z__tile_x3_y3",
+      "city": "berlin",
+      "city_name": "Berlin"
+    },
+    {
+      "id": "aoi_19700101T000203Z__tile_x4_y3",
+      "city": "berlin",
+      "city_name": "Berlin"
+    },
+    {
+      "id": "tile_x1_y1",
+      "city": "bydgoszcz",
+      "city_name": "Bydgoszcz"
+    },
+    {
+      "id": "tile_x2_y1",
+      "city": "bydgoszcz",
+      "city_name": "Bydgoszcz"
+    },
+    {
+      "id": "tile_x3_y1",
+      "city": "bydgoszcz",
+      "city_name": "Bydgoszcz"
+    },
+    {
+      "id": "aoi_19700101T000404Z__tile_x2_y1",
+      "city": "london",
+      "city_name": "London"
+    },
+    {
+      "id": "aoi_19700101T000404Z__tile_x2_y2",
+      "city": "london",
+      "city_name": "London"
+    },
+    {
+      "id": "aoi_19700101T000404Z__tile_x2_y3",
+      "city": "london",
+      "city_name": "London"
+    },
+    {
+      "id": "aoi_19700101T000043Z__tile_x1_y3",
+      "city": "los-angeles",
+      "city_name": "Los Angeles"
+    },
+    {
+      "id": "aoi_19700101T000043Z__tile_x2_y2",
+      "city": "los-angeles",
+      "city_name": "Los Angeles"
+    },
+    {
+      "id": "aoi_19700101T000043Z__tile_x3_y1",
+      "city": "los-angeles",
+      "city_name": "Los Angeles"
+    },
+    {
+      "id": "aoi_19700101T000138Z__tile_x2_y2",
+      "city": "maceio",
+      "city_name": "Maceió"
+    },
+    {
+      "id": "aoi_20260331T161435Z__tile_x1_y1",
+      "city": "maceio",
+      "city_name": "Maceió"
+    },
+    {
+      "id": "aoi_20260403T100225Z__tile_x1_y1",
+      "city": "maceio",
+      "city_name": "Maceió"
+    },
+    {
+      "id": "aoi_19700101T000338Z__tile_x2_y1",
+      "city": "manchester",
+      "city_name": "Manchester"
+    },
+    {
+      "id": "aoi_19700101T000338Z__tile_x3_y1",
+      "city": "manchester",
+      "city_name": "Manchester"
+    },
+    {
+      "id": "aoi_19700101T000338Z__tile_x4_y1",
+      "city": "manchester",
+      "city_name": "Manchester"
+    },
+    {
+      "id": "aoi_19700101T000215Z__tile_x3_y8",
+      "city": "new-york",
+      "city_name": "New York"
+    },
+    {
+      "id": "aoi_19700101T000215Z__tile_x3_y9",
+      "city": "new-york",
+      "city_name": "New York"
+    },
+    {
+      "id": "aoi_19700101T000215Z__tile_x4_y9",
+      "city": "new-york",
+      "city_name": "New York"
+    },
+    {
+      "id": "aoi_19700101T000222Z__tile_x1_y3",
+      "city": "paris",
+      "city_name": "Paris"
+    },
+    {
+      "id": "aoi_19700101T000222Z__tile_x1_y6",
+      "city": "paris",
+      "city_name": "Paris"
+    },
+    {
+      "id": "aoi_19700101T000222Z__tile_x2_y3",
+      "city": "paris",
+      "city_name": "Paris"
+    },
+    {
+      "id": "aoi_19700101T000659Z__tile_x2_y5",
+      "city": "rome",
+      "city_name": "Rome"
+    },
+    {
+      "id": "aoi_19700101T000513Z__tile_x5_y6",
+      "city": "stockholm",
+      "city_name": "Stockholm"
+    },
+    {
+      "id": "aoi_19700101T000513Z__tile_x6_y2",
+      "city": "stockholm",
+      "city_name": "Stockholm"
+    },
+    {
+      "id": "aoi_19700101T000513Z__tile_x6_y6",
+      "city": "stockholm",
+      "city_name": "Stockholm"
+    },
+    {
+      "id": "aoi_19700101T000143Z__tile_x12_y4",
+      "city": "tokyo",
+      "city_name": "Tokyo"
+    },
+    {
+      "id": "aoi_19700101T000143Z__tile_x23_y4",
+      "city": "tokyo",
+      "city_name": "Tokyo"
+    }
+  ]
+}

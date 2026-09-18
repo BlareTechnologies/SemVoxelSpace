@@ -1,0 +1,54 @@
+{
+  "scope": "sample_only",
+  "tiles": 30,
+  "occupied_voxels": 2177510,
+  "city_counts": {
+    "berlin": 3,
+    "bydgoszcz": 3,
+    "london": 3,
+    "los-angeles": 3,
+    "maceio": 3,
+    "manchester": 3,
+    "new-york": 3,
+    "paris": 3,
+    "rome": 1,
+    "stockholm": 3,
+    "tokyo": 2
+  },
+  "context_file_counts": {
+    "llm_mask": 30,
+    "model_mask": 30,
+    "model_mask_raster": 5,
+    "model_overlay": 30,
+    "ortho": 30,
+    "osm_mask": 30
+  },
+  "payload_files_verified": 215,
+  "tests_passed": 38,
+  "selected_numeric_files_unchanged": true,
+  "model_weights_unchanged": true,
+  "source_workspace_sha256": "49730cc955b1838c0e3bd39317429512db82fe42fa53a2d04ef6e88ce265c811",
+  "source_workspace_unchanged": true,
+  "relocated_archive_install": "passed",
+  "installed_wheel_real_tile_cuda_evaluation": "passed",
+  "partial_benchmark_flag": true,
+  "full_25_tile_benchmark_rerun": false,
+  "encoding_and_eol_conventions_preserved": true,
+  "local_document_links_valid": true,
+  "release_assets": [
+    {
+      "name": "voxel-context3d-models-v1.zip",
+      "sha256": "fb03c45da77af1ae4298b242d50b97d87ba0d684c026e6486a2655663142b5a4",
+      "size_bytes": 84608069,
+      "kind": "models",
+      "file_count": 8
+    },
+    {
+      "name": "voxel-context3d-sample-v1.zip",
+      "sha256": "d2ae69c13364bf33849d0da83dbcb500b8a1d512b5a65cd29c7bc7d6a524c054",
+      "size_bytes": 249537208,
+      "kind": "data",
+      "file_count": 215
+    }
+  ]
+}

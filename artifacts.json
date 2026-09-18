@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "name": "voxel-context3d-models-v1.zip",
+      "sha256": "fb03c45da77af1ae4298b242d50b97d87ba0d684c026e6486a2655663142b5a4",
+      "size_bytes": 84608069,
+      "kind": "models",
+      "file_count": 8
+    },
+    {
+      "name": "voxel-context3d-sample-v1.zip",
+      "sha256": "d2ae69c13364bf33849d0da83dbcb500b8a1d512b5a65cd29c7bc7d6a524c054",
+      "size_bytes": 249537208,
+      "kind": "data",
+      "file_count": 215
+    }
+  ]
+}

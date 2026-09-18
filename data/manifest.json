@@ -1,0 +1,3206 @@
+{
+  "schema_version": 2,
+  "scope": "sample_only",
+  "reference_test_tile_count": 25,
+  "tiles": [
+    {
+      "id": "aoi_19700101T000043Z__tile_x1_y3",
+      "split": "test",
+      "tags": [
+        "los_angeles2"
+      ],
+      "city": "los-angeles",
+      "city_name": "Los Angeles",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          75.0,
+          225.0
+        ],
+        "max": [
+          150.0,
+          300.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 40544,
+      "input_voxel_count": 40544,
+      "shape_zyx": [
+        24,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000043Z__tile_x1_y3.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000043Z__tile_x1_y3.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "6745ff96b3c6a027a4e2f182a949ba65d2bc5cb16e2ceee6a995465b8447e82e",
+      "source_labels_sha256": "933280ec7cb0b5d18bbf3d3db3bf6768b5598e58d734758e8d9c9d0c591c3044",
+      "input_sha256": "584656d8860f45a5d11963b5f31da931bef86c13fed6da976792ed1329545834",
+      "labeler_sha256": "7c6e8f80d2fd38aa6af6f8180573186ce5fbe34150a586698a3de491b92f2efe",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        4166,
+        4648,
+        0,
+        14869,
+        12237,
+        4360,
+        264
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x1_y3/ortho.png",
+          "sha256": "2117cd52fb16147db6884a951ca168113e4be0cb8bb29fbb6ac0ba0dd4a88899",
+          "size_bytes": 4080295,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x1_y3/osm_mask.png",
+          "sha256": "60dae9d6a5f7c85fcd57df1f9e70ab2b3eba9cea5d8ef5ef0c38efbbae1a45d8",
+          "size_bytes": 13505,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x1_y3/llm_mask.png",
+          "sha256": "ef826df167b6cbc06a6cbff5e62d2233c17171d0db01ff85db6b4ea47a460e5b",
+          "size_bytes": 104172,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x1_y3/model_overlay.png",
+          "sha256": "3c39a2daa731153020d065b4231b718d6e91608fb4fb8cf786ff3b1607d9fa59",
+          "size_bytes": 2466500,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x1_y3/model_mask.npz",
+          "sha256": "eeee7ff5370a393d6c4ec71ead06d3ed8a3e131452f4b0db8238c95362f5fbe8",
+          "size_bytes": 21138,
+          "shape_zyx": [
+            24,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000043Z__tile_x2_y2",
+      "split": "test",
+      "tags": [
+        "los_angeles2"
+      ],
+      "city": "los-angeles",
+      "city_name": "Los Angeles",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          150.0
+        ],
+        "max": [
+          225.0,
+          225.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 45188,
+      "input_voxel_count": 45188,
+      "shape_zyx": [
+        27,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000043Z__tile_x2_y2.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000043Z__tile_x2_y2.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "c11677e3001e5e72c04f010139e0cbe651e39c0df079843623f5155b1768a65b",
+      "source_labels_sha256": "97ffd1783706518df8d9034cca747de6c880037d739e58e01774dd41c7442384",
+      "input_sha256": "6ebc42fbbe5309796a0eb3c6df5e05d8388c4418f3c81f3019ec7d515a02345b",
+      "labeler_sha256": "f0577a7df4d04b1aa711e46dd6e26784f657c2dcf5e680f3d33f469aaa75750d",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        17346,
+        1003,
+        12173,
+        3980,
+        7831,
+        1507,
+        1348
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x2_y2/ortho.png",
+          "sha256": "4113a106b35b5f5182b3548fbefafd52f27f1a11dd4b41718347b099f93ad06d",
+          "size_bytes": 4116829,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x2_y2/osm_mask.png",
+          "sha256": "c59e908e3d7237ec21b75fbafd5b9f5714760ea5184f1e825a3cc6cfe9cddc85",
+          "size_bytes": 27948,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x2_y2/llm_mask.png",
+          "sha256": "6b0eaf372460c441be30312f8a079a5ad74fa6df77383aac7102f82f507bdccb",
+          "size_bytes": 108584,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x2_y2/model_overlay.png",
+          "sha256": "7ac2d435b95d30d2f25bbf9562d60e0053f8f9acb315b7e554db3166babdd9e9",
+          "size_bytes": 2478094,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x2_y2/model_mask.npz",
+          "sha256": "356acfce73a035768770f63bcbe4bb1ab5cc96a8f34f65e92fb7985f4601a01d",
+          "size_bytes": 35249,
+          "shape_zyx": [
+            27,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000043Z__tile_x3_y1",
+      "split": "test",
+      "tags": [
+        "los_angeles2"
+      ],
+      "city": "los-angeles",
+      "city_name": "Los Angeles",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          225.0,
+          75.0
+        ],
+        "max": [
+          300.0,
+          150.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 44772,
+      "input_voxel_count": 44772,
+      "shape_zyx": [
+        38,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000043Z__tile_x3_y1.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000043Z__tile_x3_y1.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "2f287abd080751913201a47c8f6a14a5a435a7b6e18c4ee13c9e70108c47573a",
+      "source_labels_sha256": "815ec712f103f5265742b2be52ca1a7303d71bb62fe43c94618959be7191dfd9",
+      "input_sha256": "0695a0714cd08ced2f090765d2f28ede822ebf2dbdc7e620feb6c6a8428f17f5",
+      "labeler_sha256": "2ac34db224332e4375e25db7100ed5a7c9eaf5d177740a727b4e10a3d8342ca9",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        11384,
+        6,
+        11772,
+        5826,
+        12198,
+        3547,
+        39
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x3_y1/ortho.png",
+          "sha256": "2c386ca72d3e00a2bb96cf791fa6bec4b4d912d98b6b0b69963e4d0d78e53785",
+          "size_bytes": 4075421,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x3_y1/osm_mask.png",
+          "sha256": "8407ea39e36eeda3f66c281562b2eedb16ac67dd9787b90b83a8082947f5eda2",
+          "size_bytes": 26089,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x3_y1/llm_mask.png",
+          "sha256": "6598a47afc8ad0628208ffd1bea720cb4e411105c951d64e54835b2b10102a80",
+          "size_bytes": 110479,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x3_y1/model_overlay.png",
+          "sha256": "9affe0f68a90a5cbf43b5cb011bb146cd8923dc9b65c0273230a5bebe666847b",
+          "size_bytes": 2473294,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/los-angeles/aoi_19700101T000043Z__tile_x3_y1/model_mask.npz",
+          "sha256": "def8d4b195f5e427595af0eba57102aa18fdf3fce17ef0f8096b81472a63d5a9",
+          "size_bytes": 38669,
+          "shape_zyx": [
+            38,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000138Z__tile_x2_y2",
+      "split": "train",
+      "tags": [
+        "qualitytest2"
+      ],
+      "city": "maceio",
+      "city_name": "Maceió",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          150.0
+        ],
+        "max": [
+          225.0,
+          225.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 63381,
+      "input_voxel_count": 63381,
+      "shape_zyx": [
+        78,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000138Z__tile_x2_y2.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000138Z__tile_x2_y2.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "c271c7440f874bb175f2dd0070bb214d53da4ba2c9a4bf300fadf4b1bd562c7c",
+      "source_geometry_sha256": "bc0e797ab3a9c3fdcb7a9f8d4c4e356fb9b83ad6908dd36e2ce4481f8685ef7a",
+      "source_labels_sha256": "5ebad2b717dd043a823de04e253f4785308ba8a6aebb248165753c601f03404b",
+      "input_sha256": "3d7938420a11139f110f80461b83d54079921088de965d821d97f64aae23b03f",
+      "labeler_sha256": "961569fee344758fed547c095e906625e46cfa62159b234fcb02e8ef0cbb7202",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        44805,
+        1369,
+        2,
+        4173,
+        12690,
+        323,
+        19
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/maceio/aoi_19700101T000138Z__tile_x2_y2/ortho.png",
+          "sha256": "dfcb540a8bbd5742afcc364b90dd9ad4165c5cd4bcf41a20d4a919c3be51dbe9",
+          "size_bytes": 6026129,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/maceio/aoi_19700101T000138Z__tile_x2_y2/osm_mask.png",
+          "sha256": "a8f5403e1cde3ba913e3620e8a0b26b0ba4a16a93ffa9f84205ac9a5006356c6",
+          "size_bytes": 8794,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/maceio/aoi_19700101T000138Z__tile_x2_y2/llm_mask.png",
+          "sha256": "230191263819f018d765e298e8bccb865f3e4ed836e81add9e44aec28c302607",
+          "size_bytes": 204110,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/maceio/aoi_19700101T000138Z__tile_x2_y2/model_overlay.png",
+          "sha256": "512cd4b64995cf0a14e1897f578bda4662f25c71608d8354509e85cfcfbcd2b8",
+          "size_bytes": 3816808,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/maceio/aoi_19700101T000138Z__tile_x2_y2/model_mask.npz",
+          "sha256": "4ae8f6b5a3a53ed1c62d6a0a51876a1dce7164fdd37e5add576b26c52ec01712",
+          "size_bytes": 73016,
+          "shape_zyx": [
+            78,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000143Z__tile_x12_y4",
+      "split": "train",
+      "tags": [
+        "tokyo11"
+      ],
+      "city": "tokyo",
+      "city_name": "Tokyo",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          900.0,
+          300.0
+        ],
+        "max": [
+          975.0,
+          375.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 127869,
+      "input_voxel_count": 127869,
+      "shape_zyx": [
+        96,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000143Z__tile_x12_y4.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000143Z__tile_x12_y4.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "93ca258cc7e461f79cde0079568f06b98ae81804e063820c33c554435b4cf382",
+      "source_geometry_sha256": "0a6cb2b8721e595ba191754203ffd3f51ec170aa4758fb06d7e67b2d600e910c",
+      "source_labels_sha256": "20e7fef82a1e6661813d64f32716333c8abdbea7c347371dd297072e4d72222b",
+      "input_sha256": "359754d9fcc8e717cba8500fea4daea4fd1ed8e17656bd676b0aab902a35c255",
+      "labeler_sha256": "8531df93fda62beedaab074cfa21038296b8144500b90137a770de8f5455d224",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        97118,
+        12485,
+        1,
+        12038,
+        3996,
+        68,
+        2163
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x12_y4/ortho.png",
+          "sha256": "ebe0997f8c1620d4f99e2adff91e32d19bad092af4b7123c540c9844276121e9",
+          "size_bytes": 5073372,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x12_y4/osm_mask.png",
+          "sha256": "527c198b2e00fd0e2b423728e42bb3085ced14cdd89f6043bae34062311d346f",
+          "size_bytes": 26286,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x12_y4/llm_mask.png",
+          "sha256": "e9467c02037c4fcc67c7fa135a3fce7ae8c2febb99c9a72fd0cdcde53e386a97",
+          "size_bytes": 61146,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x12_y4/model_overlay.png",
+          "sha256": "7a36d552acc1821bd0dc3181778c218befb0e215e6593a5df189a30734501699",
+          "size_bytes": 2400304,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x12_y4/model_mask.npz",
+          "sha256": "651e9bbf1f89ce1d3b447945f9c277c8e6664add9e1e1b3e008f2ea33ddd7ecb",
+          "size_bytes": 97127,
+          "shape_zyx": [
+            96,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000143Z__tile_x23_y4",
+      "split": "train",
+      "tags": [
+        "tokyo11"
+      ],
+      "city": "tokyo",
+      "city_name": "Tokyo",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          1725.0,
+          300.0
+        ],
+        "max": [
+          1800.0,
+          375.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 105762,
+      "input_voxel_count": 105762,
+      "shape_zyx": [
+        101,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000143Z__tile_x23_y4.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000143Z__tile_x23_y4.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "4ef7069b69fc087e22f849e6d726e42cb06758a51e244d6b4d46d21589a911c6",
+      "source_geometry_sha256": "08c1151a6d29435c34c70912c1ee792ecbb9ae84fd342f59155855465bf128e7",
+      "source_labels_sha256": "cb015e4e543171d99f9a6d60f761804cd1bde766104bd38afc5ca35e3989a1db",
+      "input_sha256": "c81ea21d4b2a4bc9319f0d8482ae4c7a79c8ca937632704a398ec0b6ec2d535f",
+      "labeler_sha256": "4dc68e3ce18b55105f2159a901f91f61e835a6c5aa623c257b785acbff25ddb8",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        69186,
+        16429,
+        0,
+        7852,
+        9552,
+        399,
+        2344
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x23_y4/ortho.png",
+          "sha256": "b8dfcde551fc378b02f1bc89800cb9396b2769efe847fac8168c85400187874c",
+          "size_bytes": 5434109,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x23_y4/osm_mask.png",
+          "sha256": "eef2ebbbb70a77dbe1649428b9c211e30599f97ca843ad0b2a0ae97085339a74",
+          "size_bytes": 32235,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x23_y4/llm_mask.png",
+          "sha256": "0e7fca1c33b4eb784c40f0f18f985bc76455d4328043f6349f3229917d23d7f5",
+          "size_bytes": 60378,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x23_y4/model_overlay.png",
+          "sha256": "c84498970949c30af1ff89364141040dd1d4103740aa0218b26a74be1e0f4b40",
+          "size_bytes": 2677471,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/tokyo/aoi_19700101T000143Z__tile_x23_y4/model_mask.npz",
+          "sha256": "06926725b39c3b583089635fd9f3094ec91e84db8d9c9685655e4e72b9e83bee",
+          "size_bytes": 97592,
+          "shape_zyx": [
+            101,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000203Z__tile_x1_y4",
+      "split": "train",
+      "tags": [
+        "berlin2"
+      ],
+      "city": "berlin",
+      "city_name": "Berlin",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          75.0,
+          300.0
+        ],
+        "max": [
+          150.0,
+          375.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 83379,
+      "input_voxel_count": 83379,
+      "shape_zyx": [
+        74,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000203Z__tile_x1_y4.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000203Z__tile_x1_y4.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "45ed88feca93bbf591bc797c9f0aaf4dc783c944a25a2f1da0cb1b58a13b5e2f",
+      "source_geometry_sha256": "ade7d00f7f259baae3d92bdcb88df81555459df3e2e002b493f81a229c169b40",
+      "source_labels_sha256": "c2a46c994ef0a6c23ba11775fc84f720904a4e2d43c0ecd15ba443385c04fd62",
+      "input_sha256": "0a639a433ab3e2fcc736b9d52afe9cf6f6a32797a0dbc236748cd8fec1230a7b",
+      "labeler_sha256": "809da5af76b3c6c6e8e09c419d873523b63285daeceb228b80577fbc88acf79c",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        17709,
+        9008,
+        8967,
+        8134,
+        37925,
+        1368,
+        268
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x1_y4/ortho.png",
+          "sha256": "bf52c2126b82c9324afaa28714a4f3d306e4e430c14148b111bf7e7e16cd3a86",
+          "size_bytes": 4437855,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x1_y4/osm_mask.png",
+          "sha256": "dd29f03bc5c05d6bdf0b2f7aa23d764b10fed1dd66637d82377acee0ea373044",
+          "size_bytes": 33115,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x1_y4/llm_mask.png",
+          "sha256": "730f2af548168c15ed23aae70072e2a1b7b922e5cab59412dd05e787945642bc",
+          "size_bytes": 87038,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x1_y4/model_overlay.png",
+          "sha256": "d3c1c48fec28bd062a906fa6e169fe72d1b1121610b8eed5622a1bf2ae617dc5",
+          "size_bytes": 2718338,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x1_y4/model_mask.npz",
+          "sha256": "a47a417159f4ea18ec5fb32d43e42df7b8703a80cb1211804d9f42f4f7700b88",
+          "size_bytes": 74094,
+          "shape_zyx": [
+            74,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000203Z__tile_x3_y3",
+      "split": "train",
+      "tags": [
+        "berlin2"
+      ],
+      "city": "berlin",
+      "city_name": "Berlin",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          225.0,
+          225.0
+        ],
+        "max": [
+          300.0,
+          300.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 93529,
+      "input_voxel_count": 93529,
+      "shape_zyx": [
+        67,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000203Z__tile_x3_y3.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000203Z__tile_x3_y3.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "b37659011fcc3537547b80b713e67b68ef639e74fbbe509ea7c423583657ace3",
+      "source_geometry_sha256": "616822431558b2145c9908ee8b546e10940ebf0eb463e330151b573c2e53318e",
+      "source_labels_sha256": "1bdc8ab22376d89178807bb66cc2d26b781f0fc4d846e3f2a50c21b7dee5fbee",
+      "input_sha256": "a3f2c81db7ec77fb257e9bd83ed87191933a1dd1274382bb8d77369313d7fc98",
+      "labeler_sha256": "b2068375ec81adccd1712352637c873de78b876a0b94cea86cf0405ba0f2b142",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        40936,
+        4537,
+        6330,
+        10639,
+        25799,
+        5173,
+        115
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x3_y3/ortho.png",
+          "sha256": "7b03896db51c687b58adccfb6939a9f8223d517adf13a6ee22ec70a674236735",
+          "size_bytes": 4696780,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x3_y3/osm_mask.png",
+          "sha256": "7fa586fd964f6243130ddbe90c3650fee0ddf3278e4fc142944028e1766f36b6",
+          "size_bytes": 43391,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x3_y3/llm_mask.png",
+          "sha256": "502b33e4eeb2c401fea7fa4324a3fc4b259e6039e5d8823572e1d9ea0b02f158",
+          "size_bytes": 93098,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x3_y3/model_overlay.png",
+          "sha256": "b5783c2461d4cc1f010c9babf22aa224a70aed56564d335460b2d886688f390c",
+          "size_bytes": 2860146,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x3_y3/model_mask.npz",
+          "sha256": "549b1b7189650e744b241269245c52a9fa54cab6fc120eff6dae46ce609270b7",
+          "size_bytes": 91408,
+          "shape_zyx": [
+            67,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000203Z__tile_x4_y3",
+      "split": "train",
+      "tags": [
+        "berlin2"
+      ],
+      "city": "berlin",
+      "city_name": "Berlin",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          300.0,
+          225.0
+        ],
+        "max": [
+          375.0,
+          300.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 75240,
+      "input_voxel_count": 75240,
+      "shape_zyx": [
+        77,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000203Z__tile_x4_y3.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000203Z__tile_x4_y3.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "151d159d50bf27c1bbbc03f49612042d73b98470bb60ba2bc19bd168e4843494",
+      "source_geometry_sha256": "d74a95439eb11e99deb53bb46d582938edb3e3c080cd4c92bd33f1f0b1d37e70",
+      "source_labels_sha256": "3ab3cdd99d597d2da5e034e56f5af6722e3d1efcb0ba38274d20f5f93f926d10",
+      "input_sha256": "1f3abff7144cf803e6b409bea0acf1f5880dbbf19998c35fa6fefb8e92f42d80",
+      "labeler_sha256": "a63ac6750163110643e3990599b26bb141d8f7877eb1b326a0ae957fa5c2cdd1",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        17330,
+        11128,
+        8187,
+        8351,
+        27672,
+        2554,
+        18
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x4_y3/ortho.png",
+          "sha256": "56147a103591322de10ef55a185dc2fb4d5ffdba7e976a86972401462884396c",
+          "size_bytes": 4155356,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x4_y3/osm_mask.png",
+          "sha256": "52f8294d78d4f4d220475936a15735d67c8f8d708d433a0c9c3bf3b409cc75c3",
+          "size_bytes": 43926,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x4_y3/llm_mask.png",
+          "sha256": "b0f2c362a3d4e79dd57364e3cffa5022c1edb7f666310f89c5ef1a85d95e8005",
+          "size_bytes": 70132,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x4_y3/model_overlay.png",
+          "sha256": "9838304d378855262ef3af147c0497f57cf8f389082884f6fed5f12f1eaca5e4",
+          "size_bytes": 2498662,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/berlin/aoi_19700101T000203Z__tile_x4_y3/model_mask.npz",
+          "sha256": "67f6e9895ab8c16a3a335b446157cb6c4df860662f0c100b30ed4566bd57e5e6",
+          "size_bytes": 67703,
+          "shape_zyx": [
+            77,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000215Z__tile_x3_y8",
+      "split": "additional",
+      "tags": [
+        "newyork8"
+      ],
+      "city": "new-york",
+      "city_name": "New York",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          225.0,
+          600.0
+        ],
+        "max": [
+          300.0,
+          675.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 75502,
+      "input_voxel_count": 75502,
+      "shape_zyx": [
+        40,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000215Z__tile_x3_y8.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000215Z__tile_x3_y8.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "3703846f914649ce0902cf627d7cfc2f12231d4dbb09d0b8d7fbfb05422d15e0",
+      "source_labels_sha256": "42669df76a7b2dfbf57d84d529c791555244480364a0ea7f58ac463d79940191",
+      "input_sha256": "2d0b8eb391fb3029002a4330c3df740a8dea02cd80c9d5399c9c80c788903101",
+      "labeler_sha256": "add28eeab4425ebfd7b0a73657db2e9f8df634e5510afbf2e4f739d2bd037446",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        40946,
+        8069,
+        0,
+        6253,
+        16612,
+        479,
+        3143
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y8/ortho.png",
+          "sha256": "56e7405fc651663f71d6279189245e196c67942644c2eb6b53ce3603a7556fad",
+          "size_bytes": 5460011,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y8/osm_mask.png",
+          "sha256": "c5e3a1f3c097dbe600087d99d1714a98422979e2e9b7fa53639a4527ea6e00dd",
+          "size_bytes": 67640,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y8/llm_mask.png",
+          "sha256": "90acc4efaf3c9d9be84ac65e64a249eec2600ff2fcdbcabdb560db65400aeb5e",
+          "size_bytes": 197720,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y8/model_overlay.png",
+          "sha256": "58700b6e87b0be1c40bde02263807f8028d7af13ea50eb8a2340753bb0623a24",
+          "size_bytes": 3498695,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y8/model_mask.npz",
+          "sha256": "a41fbc6b392a79e8e5a417ab3d109da0e49a3c6c0fe76456195ff3b467e57285",
+          "size_bytes": 71141,
+          "shape_zyx": [
+            40,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000215Z__tile_x3_y9",
+      "split": "additional",
+      "tags": [
+        "newyork8"
+      ],
+      "city": "new-york",
+      "city_name": "New York",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          225.0,
+          675.0
+        ],
+        "max": [
+          300.0,
+          750.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 69518,
+      "input_voxel_count": 69518,
+      "shape_zyx": [
+        35,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000215Z__tile_x3_y9.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000215Z__tile_x3_y9.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "89eb26daadf7ef16568b7cbea182d1e662198c8e34e81d0fcc53f5c391d92fb9",
+      "source_labels_sha256": "71900f39be4b6b733de10e3fc5b23bdbfb4f08a4114259ccbb0b967bb31fe1e0",
+      "input_sha256": "2e78e5ac3439758b2c0f144e8cc09abea556b03c9d4677125574780ad12d4b23",
+      "labeler_sha256": "cc039080bf306d93e2b15f3e0f2571fa6f096ab9c454d48de998c77a6432633f",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        44792,
+        3948,
+        0,
+        5917,
+        12028,
+        879,
+        1954
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y9/ortho.png",
+          "sha256": "d7de0ec29960502bffa3d431f44308de5a07bb808121113bff593e77b2ee0eb3",
+          "size_bytes": 5306273,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y9/osm_mask.png",
+          "sha256": "4202c81e91ed14f54e5c6686260e0f0ca61fff378b6f324e363ec021221d6c62",
+          "size_bytes": 58713,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y9/llm_mask.png",
+          "sha256": "ba8853311de717846a1f7c27ddd5cb89b01113dcf3c7628ca801cd5402c9cfe2",
+          "size_bytes": 156987,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y9/model_overlay.png",
+          "sha256": "397085f499280f9882605a6db7ab0634621cee193bcc5115a63866df82106972",
+          "size_bytes": 3334518,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x3_y9/model_mask.npz",
+          "sha256": "5b15edc7bdc6a361d9919244333bf339fe9a50a89f3a32e5ed428af6250d47de",
+          "size_bytes": 63534,
+          "shape_zyx": [
+            35,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000215Z__tile_x4_y9",
+      "split": "additional",
+      "tags": [
+        "newyork8"
+      ],
+      "city": "new-york",
+      "city_name": "New York",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          300.0,
+          675.0
+        ],
+        "max": [
+          375.0,
+          750.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 67147,
+      "input_voxel_count": 67147,
+      "shape_zyx": [
+        45,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000215Z__tile_x4_y9.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000215Z__tile_x4_y9.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "011416ecce52976b8df9cfaccc7760f27c6ac7b22fa895fb251513d75feae3db",
+      "source_labels_sha256": "e1681f6aea8caee7ce30368306f61447ca8cf972a3ca44bc6792854dc10ccb72",
+      "input_sha256": "07f155def4f2e7eee920b933a72599c865dfb3ddaa9632f1cb81c8227619cca3",
+      "labeler_sha256": "d78d380152b4507079a058f28469b98ae9ed1c7ed5a97f7a17c70a1a8fc76249",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        30125,
+        7045,
+        3075,
+        4385,
+        17296,
+        1168,
+        4053
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x4_y9/ortho.png",
+          "sha256": "7db44fbe8b33600db47e045ef64ad7afdeba2e66969e54958b075ba1ead712d4",
+          "size_bytes": 5250618,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x4_y9/osm_mask.png",
+          "sha256": "860f10c23e2344bbdb2ae1f568b5db23004b1397e07f0a3a82d79eb05ddfd03b",
+          "size_bytes": 68051,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x4_y9/llm_mask.png",
+          "sha256": "9eaaddab2622321d2591ce32055931b78028035bd5c79cd65738762697d61a22",
+          "size_bytes": 138832,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x4_y9/model_overlay.png",
+          "sha256": "46014c22bd301a1c840b8fb7b74e3c1616b9fb330e26f0944c4231fe7a13dea5",
+          "size_bytes": 3304404,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/new-york/aoi_19700101T000215Z__tile_x4_y9/model_mask.npz",
+          "sha256": "c6ea279594a265ae39331f1693ae05943fa13e586a61ef915c88f1104a28575c",
+          "size_bytes": 64856,
+          "shape_zyx": [
+            45,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000222Z__tile_x1_y3",
+      "split": "train",
+      "tags": [
+        "paris3"
+      ],
+      "city": "paris",
+      "city_name": "Paris",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          75.0,
+          225.0
+        ],
+        "max": [
+          150.0,
+          300.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 110025,
+      "input_voxel_count": 110025,
+      "shape_zyx": [
+        56,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000222Z__tile_x1_y3.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000222Z__tile_x1_y3.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "e2f04cc0ace26e54b8f6ee3445450192ca137b36442d700ec858c2953dae2c70",
+      "source_geometry_sha256": "0c4f212b74eec06228a3ec83ff6c4a4748d78fb03df75fff196ecd8e0efb04f1",
+      "source_labels_sha256": "e82e7dec2bae5ec2eef5334bb6dde8625893600a89ba9b5220c103cf02a8a385",
+      "input_sha256": "54dc881b1b4730c8c158194a6026e97aa196fca213e9f00173e435bad9612c14",
+      "labeler_sha256": "b1bf10d44d3271620a8457389b9709cbf8b95ca80817c61e5a76557930a892be",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        84724,
+        5224,
+        2,
+        18552,
+        770,
+        84,
+        669
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y3/ortho.png",
+          "sha256": "b1386eb51fa55109b0ee6ceb913e43ddd51528648c0edfeb8ae8d06bda3f616e",
+          "size_bytes": 4735382,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y3/osm_mask.png",
+          "sha256": "9926cd731c566691b747814c3ca9a4bec9e73eefe2c623284e13f5f137845bb4",
+          "size_bytes": 17654,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y3/llm_mask.png",
+          "sha256": "35ac3a1add9f77aa312c97097b19ce4d489821cd17fc7c2038b05d57d6ae5a77",
+          "size_bytes": 131917,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y3/model_overlay.png",
+          "sha256": "2f972b493b95dd34efd83bc864a66dc2cb183f3c5180a5ab10ab5fa0106200bc",
+          "size_bytes": 2915387,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y3/model_mask.npz",
+          "sha256": "5de835987d27302bc2e34141f1e89a39ccd3bda3902b398a1d7ec9afc7978776",
+          "size_bytes": 105489,
+          "shape_zyx": [
+            56,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000222Z__tile_x1_y6",
+      "split": "train",
+      "tags": [
+        "paris3"
+      ],
+      "city": "paris",
+      "city_name": "Paris",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          75.0,
+          450.0
+        ],
+        "max": [
+          150.0,
+          525.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 94814,
+      "input_voxel_count": 94814,
+      "shape_zyx": [
+        50,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000222Z__tile_x1_y6.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000222Z__tile_x1_y6.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "24015a6703dc4195ddc0807463260be80f154dd495598a74ddfbcba7e27bbb5a",
+      "source_geometry_sha256": "dc094db6ab0ef44ae45e9a564bd5d2b9a4d2b1539b1cd5e1cc303a61d2dab319",
+      "source_labels_sha256": "0c3e5a741c93d72110c4b73cae6963ef6f00104cc8c40a68750484c4c28ba11c",
+      "input_sha256": "fae6cccc6133c393c2420496b0019ed4fb5649952720da02604ac1ff7934f5c7",
+      "labeler_sha256": "4e7ecaa99505c45fa5a95992c6f829a76f1fd53667d25d485d00a3acebbb2e32",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        52532,
+        6735,
+        9,
+        13670,
+        16947,
+        4175,
+        746
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y6/ortho.png",
+          "sha256": "e6258128f7c525ed7b5154339178898630654f93b6b5f65ed267b1b1a077fe8f",
+          "size_bytes": 4852663,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y6/osm_mask.png",
+          "sha256": "f45ab84a21d53fdb172fab80773ac129a6a4b59498049b03905a064c5a4e11a4",
+          "size_bytes": 20882,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y6/llm_mask.png",
+          "sha256": "6632757cb250ef3c35eb243ecf3ab2f75abc6535ced500721c3d104214e32f0c",
+          "size_bytes": 104695,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y6/model_overlay.png",
+          "sha256": "36c177402cde9b4f45930a71d05d837492ec48fc442dddc9d55df5b5ee320029",
+          "size_bytes": 3054619,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x1_y6/model_mask.npz",
+          "sha256": "4495106fe084db7392fa54e5d2ddd6c3086a5be97ff8d8e9498c99f4ce3d4d16",
+          "size_bytes": 98201,
+          "shape_zyx": [
+            50,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000222Z__tile_x2_y3",
+      "split": "train",
+      "tags": [
+        "paris3"
+      ],
+      "city": "paris",
+      "city_name": "Paris",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          225.0
+        ],
+        "max": [
+          225.0,
+          300.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 87179,
+      "input_voxel_count": 87179,
+      "shape_zyx": [
+        51,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000222Z__tile_x2_y3.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000222Z__tile_x2_y3.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "816a763d3cca9b83d400a82476f72ceb60f49178dd092ca89784f1ce733e436c",
+      "source_geometry_sha256": "81c0c2a5e50b563ffbcc54485ce0e48c249adf7e4e25b2d9d63f85f395886043",
+      "source_labels_sha256": "900eb5537639994947af69ecde95a63ea7a136468b12a0b224cc252fef2338c0",
+      "input_sha256": "e514177c7c745cc046006ceea0be9a9f00d52b56f989d63bf4b91f11206dfb51",
+      "labeler_sha256": "32d541ce748867a20c0cfff72fc54bb8431df9696c8432738ead32f5598e08d9",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        52684,
+        1954,
+        1,
+        20198,
+        8069,
+        3264,
+        1009
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x2_y3/ortho.png",
+          "sha256": "afca8b240864f994e353882dc3d1af630c9fb800da5ae37359995b21b2c4f60c",
+          "size_bytes": 4710520,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x2_y3/osm_mask.png",
+          "sha256": "0b785399fbaea3aa4e16d218e797cac3c60ac215d7b1ddab1535edfd3642f101",
+          "size_bytes": 12228,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x2_y3/llm_mask.png",
+          "sha256": "6141b50b201f0ff372f1ba8fe437f8a18d4125c59fc13ed4408a10c97a23c1f7",
+          "size_bytes": 96679,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x2_y3/model_overlay.png",
+          "sha256": "2366708ea64d83e96f3692b08ea2b92ce7fab8cc32aefd3610720a614e096286",
+          "size_bytes": 2925920,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/paris/aoi_19700101T000222Z__tile_x2_y3/model_mask.npz",
+          "sha256": "205e2590ef40ce94400daf77b3a9cbb3ca13d759b9a80691af8982713c99e924",
+          "size_bytes": 85169,
+          "shape_zyx": [
+            51,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000338Z__tile_x2_y1",
+      "split": "test",
+      "tags": [
+        "manchaster1"
+      ],
+      "city": "manchester",
+      "city_name": "Manchester",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          75.0
+        ],
+        "max": [
+          225.0,
+          150.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 81266,
+      "input_voxel_count": 81266,
+      "shape_zyx": [
+        51,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000338Z__tile_x2_y1.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000338Z__tile_x2_y1.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "a6aff0cdb86d3de02e883664f32ebb4b4cebc46d05c75b0ff9caafa96740371b",
+      "source_labels_sha256": "ba2c50d1cebe8fe0b5277a4cddaaca5dd02fd57ad79ec31ad7326b26aa066123",
+      "input_sha256": "3f155bbd581a9ca2d9ac605734d9d8e51cadeb531a1190cac44a5bfe9491011c",
+      "labeler_sha256": "71947a9c4b3c51275d9cdef32a796309704d7e5ee8815fe7a1099964a43831b1",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        31542,
+        9726,
+        5570,
+        8019,
+        21121,
+        4422,
+        866
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x2_y1/ortho.png",
+          "sha256": "c0c1cecde5137933f22b72418e1a707123e591967af23a59fe1cc4e5daf625b7",
+          "size_bytes": 4750581,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x2_y1/osm_mask.png",
+          "sha256": "86d82ac0f77c590f14e2ce95d8eb6f82f8393bfeddbe63f666ad7614ac24d8d1",
+          "size_bytes": 49979,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x2_y1/llm_mask.png",
+          "sha256": "c5247f752ec31d63188571128f2fe25a4761494a2e7f36019d4a99c77de0c1b9",
+          "size_bytes": 82117,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x2_y1/model_overlay.png",
+          "sha256": "28cb7aa65fea5776fff223927669ceaf4a68625e97c437e011a200d4ce0069e1",
+          "size_bytes": 2879415,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x2_y1/model_mask.npz",
+          "sha256": "57e3d0cb7f84101bda13d95f0a15d87009d45609fa8b0dbfb8bbecd826de5a68",
+          "size_bytes": 73332,
+          "shape_zyx": [
+            51,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000338Z__tile_x3_y1",
+      "split": "test",
+      "tags": [
+        "manchaster1"
+      ],
+      "city": "manchester",
+      "city_name": "Manchester",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          225.0,
+          75.0
+        ],
+        "max": [
+          300.0,
+          150.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 82906,
+      "input_voxel_count": 82906,
+      "shape_zyx": [
+        50,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000338Z__tile_x3_y1.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000338Z__tile_x3_y1.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "25d93ec4a94c461819045d748f9225e392e9ed615cfdea5e589249d4dd4ad8d4",
+      "source_labels_sha256": "3574b8fbecd1197f62f7f59c6bd9d8fa96c3c867bff96f6470ef7c9f82697a96",
+      "input_sha256": "a209a367029a234d826d72155fb385f0e5dd86fecbe22f4462cbb394706deec1",
+      "labeler_sha256": "a336b75cffade3f803c515646ffdcb66648b2ded7e689a843536efed92ce89af",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        40988,
+        8904,
+        7,
+        13472,
+        12645,
+        4873,
+        2017
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x3_y1/ortho.png",
+          "sha256": "1f8c373593d252fb87d5b38c0834bf0cca668be054f8e5162c3a229c7ba2da5d",
+          "size_bytes": 4965605,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x3_y1/osm_mask.png",
+          "sha256": "96d699447ca2f0e0d2acbf00aef7047ad0df19e361d8aa3ab8a605826bc7df93",
+          "size_bytes": 61021,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x3_y1/llm_mask.png",
+          "sha256": "060f9971be174975b24cbeb6550fe35d43fe313d126e563ca7ea06b83378503c",
+          "size_bytes": 150256,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x3_y1/model_overlay.png",
+          "sha256": "129e377228ba7a6f9ec94bd5018d813e756344492cc4b9a743a68a595e162109",
+          "size_bytes": 3113623,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x3_y1/model_mask.npz",
+          "sha256": "d1deec40c02a1a9b98f078ef70c3fb4518b4fbf9bf854af7ca2eac820034ff0d",
+          "size_bytes": 77961,
+          "shape_zyx": [
+            50,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000338Z__tile_x4_y1",
+      "split": "test",
+      "tags": [
+        "manchaster1"
+      ],
+      "city": "manchester",
+      "city_name": "Manchester",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          300.0,
+          76.41471418044966
+        ],
+        "max": [
+          375.0,
+          150.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 82320,
+      "input_voxel_count": 82320,
+      "shape_zyx": [
+        44,
+        147,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000338Z__tile_x4_y1.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000338Z__tile_x4_y1.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "432cf9cafb4ce241247312a0ac8cf649e1e06544846a2f911ac9c8546c4d92e1",
+      "source_labels_sha256": "e01b02ca337673d1839dd23fecf11e923abbe37458787bb3a487e1e41bb1de69",
+      "input_sha256": "afe098c3cbc8d13d2b93551ddf9a3befc298d36e8864845690f684677264baab",
+      "labeler_sha256": "b7aa722564181b38db3bf62ef6400a84a205080e1679e27902cdc60aab9d5aa9",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        34050,
+        5845,
+        2383,
+        12506,
+        19896,
+        6019,
+        1621
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x4_y1/ortho.png",
+          "sha256": "708178ccecd4155bd97d9d71c0455b7d38c6434b35f8b3f4b7045aedb992dcaa",
+          "size_bytes": 5899228,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x4_y1/osm_mask.png",
+          "sha256": "e2acc721717a30242915f17c7d6906b2dadfca6b6002292c3ba3df284c14d500",
+          "size_bytes": 60945,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x4_y1/llm_mask.png",
+          "sha256": "ce637f81aafee60a1c2c68e01fe0a004bc3d96a11e7146d8487ee9888fc097c2",
+          "size_bytes": 138959,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x4_y1/model_overlay.png",
+          "sha256": "cb87fbd405c251163e5ac2c6f6039515eaa0bf332bf49723e63d46b8db112afa",
+          "size_bytes": 3156997,
+          "width_height": [
+            2048,
+            2010
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/manchester/aoi_19700101T000338Z__tile_x4_y1/model_mask.npz",
+          "sha256": "8c1894dda12fdae8358c7e4045418c25cb6f74a0e8faa164acbfe1e1a7ea73b0",
+          "size_bytes": 79647,
+          "shape_zyx": [
+            44,
+            147,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000404Z__tile_x2_y1",
+      "split": "train",
+      "tags": [
+        "london1"
+      ],
+      "city": "london",
+      "city_name": "London",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          75.0
+        ],
+        "max": [
+          225.0,
+          150.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 98637,
+      "input_voxel_count": 98637,
+      "shape_zyx": [
+        156,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000404Z__tile_x2_y1.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000404Z__tile_x2_y1.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "9859a73ab9d8b54a96200f6fff87905c4355c7fa547a42a1110847989b05cd05",
+      "source_geometry_sha256": "f3f0f1ba1bc91828d52a93ac8b18e58419cab70d5412a990ddddf34ebbbeab2c",
+      "source_labels_sha256": "e25574edd886f0867b918644d63be395c4afa9512d069fbe912362bf33457ef6",
+      "input_sha256": "daabefacaa96e83fc18865329f0a4cadd85e99c2d7e8c0991e3f096a713f8d08",
+      "labeler_sha256": "7bf5144983d250b6f80cb8327c21496030e6a4ea8294076ff617617da2b2acd0",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        75208,
+        1917,
+        14332,
+        1998,
+        4083,
+        1099,
+        0
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y1/ortho.png",
+          "sha256": "747b807fa85fe483be4b469a5c88dfc8c2b98e5336af9071026bb64efba37915",
+          "size_bytes": 3149339,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y1/osm_mask.png",
+          "sha256": "962fe4494c789c79842d5992c2abb360c147396a037c6e02030c702d20e33f20",
+          "size_bytes": 19370,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y1/llm_mask.png",
+          "sha256": "1b15822cf0b968dac8b4b91a1a172d3d3039862edd2a3025fac9c94297ba4d8b",
+          "size_bytes": 65118,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y1/model_overlay.png",
+          "sha256": "909c4c3ebb921438adef6fcbb63577ecbbc84292e669b9da5183ac8d09d4251e",
+          "size_bytes": 1684521,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y1/model_mask.npz",
+          "sha256": "ca480551eae8efa08de44456e7c8e1fca2a9e059793c7ea3186ee2abe590f82f",
+          "size_bytes": 81105,
+          "shape_zyx": [
+            156,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000404Z__tile_x2_y2",
+      "split": "train",
+      "tags": [
+        "london1"
+      ],
+      "city": "london",
+      "city_name": "London",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          150.0
+        ],
+        "max": [
+          225.0,
+          225.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 74473,
+      "input_voxel_count": 74473,
+      "shape_zyx": [
+        140,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000404Z__tile_x2_y2.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000404Z__tile_x2_y2.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "b0b43df3ab09617bf96dd75a4b64d62ad382585e887cd039b5274c9447979ecd",
+      "source_geometry_sha256": "d350201e2abbc9f12b6fa503d81b51b62ae993e219ffec26c67d343f799b07a2",
+      "source_labels_sha256": "b1be97ca23a36abd951829a44374811d65eb39cced06036fe23fa2ddf8a87a1c",
+      "input_sha256": "04ceb088eadbeeb34a4b67041cea5c64beb90d703f719d07323e34ff1fc0c0fe",
+      "labeler_sha256": "244184a036a598751a347af0edb199df09c9def3fc01a71d775af88351e73ccb",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        51673,
+        2865,
+        14512,
+        1063,
+        2859,
+        1488,
+        13
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y2/ortho.png",
+          "sha256": "0b9b75eae20e87ce731ea01d30d5fdd60b9bd4e9a92f79a463cdb0468fcb0eeb",
+          "size_bytes": 3147219,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y2/osm_mask.png",
+          "sha256": "532a0123320ad82bcfeaa49c896f8727ce2b386922fab05c7f6e9e930d408590",
+          "size_bytes": 22291,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y2/llm_mask.png",
+          "sha256": "27a814eb116de967897f551a24518dc95372157081f97e5f08b1061958b2862e",
+          "size_bytes": 53382,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y2/model_overlay.png",
+          "sha256": "35c173c11088aef6964a685acc045faa44e5ca17f283f77a11d118c29bf0dcb6",
+          "size_bytes": 1697658,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y2/model_mask.npz",
+          "sha256": "8d854e41d34dbe28fcd813889371bfe80dd344395e5eb31b8c6b441da22b2cb7",
+          "size_bytes": 68921,
+          "shape_zyx": [
+            140,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000404Z__tile_x2_y3",
+      "split": "train",
+      "tags": [
+        "london1"
+      ],
+      "city": "london",
+      "city_name": "London",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          225.0
+        ],
+        "max": [
+          225.0,
+          300.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 60080,
+      "input_voxel_count": 60080,
+      "shape_zyx": [
+        85,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000404Z__tile_x2_y3.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000404Z__tile_x2_y3.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "e8bbfe425c17e32b734bed5810cf1e23077830ed159a69dd3747885f47690870",
+      "source_geometry_sha256": "023adefe066f1c37886b2fd7f6ca543749c7c83f3c5664357bba61417555bc72",
+      "source_labels_sha256": "943c0ea671fdf9bb156a44537649f0e8c0f411862b8cd1e07790b20c2e00eda0",
+      "input_sha256": "9a2e932095502198beecfe6fc98565eac17ee56688dd3fbf398e35b3af5d4ada",
+      "labeler_sha256": "5184e10e57cf4472bb38284009213edaea5a81d64c951a3fb8eb6254ff46af5c",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        29892,
+        2961,
+        15271,
+        1742,
+        6134,
+        4073,
+        7
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y3/ortho.png",
+          "sha256": "7690811040545c4470b21aa974cddd47b73a340442c6a1b1d79b25834054ac58",
+          "size_bytes": 3363010,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y3/osm_mask.png",
+          "sha256": "dbf021c9bd1f4d79c64890173326c50001024d25e270f900222053aaa31074fd",
+          "size_bytes": 25592,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y3/llm_mask.png",
+          "sha256": "8652ed83dbbbbb082f0e155c0bdcd09b2315952be0339c1ce7e812ac69567ecd",
+          "size_bytes": 62325,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y3/model_overlay.png",
+          "sha256": "6676d64277af5ff134953fa146044a7785b6270af00eacef967c559aa69d43a3",
+          "size_bytes": 1896891,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/london/aoi_19700101T000404Z__tile_x2_y3/model_mask.npz",
+          "sha256": "cce701b558df80151951ec53636f868b416f2dd2c7daa165dd0b385194108731",
+          "size_bytes": 48992,
+          "shape_zyx": [
+            85,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000513Z__tile_x5_y6",
+      "split": "train",
+      "tags": [
+        "stockholm"
+      ],
+      "city": "stockholm",
+      "city_name": "Stockholm",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          375.0,
+          450.0
+        ],
+        "max": [
+          450.0,
+          525.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 43273,
+      "input_voxel_count": 43273,
+      "shape_zyx": [
+        50,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000513Z__tile_x5_y6.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000513Z__tile_x5_y6.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "3034645d1bfcfb296bf4cecb92779ae7c9b55a8b99ce346fbe5274862ffcb875",
+      "source_geometry_sha256": "b7238c248a7d4f0ca0782a063f863019129c47a6bba799adc4c45c4181ff83f8",
+      "source_labels_sha256": "be324378f80096fefe6429f5d9b48d7e12c9b33fdc90e03d4040cee53cbd8d65",
+      "input_sha256": "504cea4e0fff1f3fec04f94a3eb96ccffe69ec68a352c44b656656c3d2f2f3d3",
+      "labeler_sha256": "0109b802d17c772fa67e5aa47bec049683dfff78b6e44ee6470d01b130dcfb89",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        9245,
+        10976,
+        8899,
+        554,
+        11014,
+        1893,
+        692
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x5_y6/ortho.png",
+          "sha256": "4382c013c633e08ca2011975a0241e2fb19d72cd76c16b9d03bd5ddadae33232",
+          "size_bytes": 3978194,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x5_y6/osm_mask.png",
+          "sha256": "18bfa2d94f23da99628704c678ff09e825a6816933c0cc282c622b3af556b0ac",
+          "size_bytes": 48598,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x5_y6/llm_mask.png",
+          "sha256": "c5bfaab55e606fc1a285f46c8093d001174c7be20f708c61572a736d653b67b9",
+          "size_bytes": 102218,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x5_y6/model_overlay.png",
+          "sha256": "bef6770d7f6ddd00510e9299e7e91b6995870d0f53b70a2dc90613a1b2b513be",
+          "size_bytes": 2337506,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x5_y6/model_mask.npz",
+          "sha256": "9c2030a34ffbcdd9449bd870bde7072eb41abaa9827f13294e99af429879dbb1",
+          "size_bytes": 35676,
+          "shape_zyx": [
+            50,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000513Z__tile_x6_y2",
+      "split": "train",
+      "tags": [
+        "stockholm"
+      ],
+      "city": "stockholm",
+      "city_name": "Stockholm",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          450.0,
+          150.0
+        ],
+        "max": [
+          525.0,
+          225.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 70043,
+      "input_voxel_count": 70043,
+      "shape_zyx": [
+        57,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000513Z__tile_x6_y2.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000513Z__tile_x6_y2.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "dc80d7115bbbf64b51343acf9d483de2ca05e0c5099186202948adecc1c0544a",
+      "source_geometry_sha256": "fdae2018aa8617ecaad685cbe3c5762c01f0b6c95f8e7552c715dc265116045a",
+      "source_labels_sha256": "5b8842efa8479b1c67bcb4b72b6e27be049b7db5850b13900f48aab92a347aa9",
+      "input_sha256": "324f9a466ab33fc5b2159b5c8b40e8b9b6c0c7ca9a9152e7cdaec9c80552a95a",
+      "labeler_sha256": "03ac2cc91e48ca254842f940ea0b8281789d9bbabb50a823d2dc8ec5e71bd323",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        33827,
+        5841,
+        4784,
+        12925,
+        10129,
+        2265,
+        272
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y2/ortho.png",
+          "sha256": "02fab5af8eb483a3bebcf7ebdd502e1e67089720ee7f776cf717b2e9c62c6617",
+          "size_bytes": 4954539,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y2/osm_mask.png",
+          "sha256": "f1ddf9afeff26a4f7f8e95c18d1d880ec4d09948189cb7d67f77c2314c117687",
+          "size_bytes": 50413,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y2/llm_mask.png",
+          "sha256": "306f08b6b1470fc7a8e44737fb060f21c63d663769c1a8767f4f918d470d0a6d",
+          "size_bytes": 108271,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y2/model_overlay.png",
+          "sha256": "b9e98e2f9ff70bf470efeef090589e433ff22e454c8a8d1e6c3856bb1348ad11",
+          "size_bytes": 3074167,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y2/model_mask.npz",
+          "sha256": "930597f028a8bbb6d6365aef628f92f090cfdcf52dc0e945132d0c63e71a661a",
+          "size_bytes": 66239,
+          "shape_zyx": [
+            57,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000513Z__tile_x6_y6",
+      "split": "train",
+      "tags": [
+        "stockholm"
+      ],
+      "city": "stockholm",
+      "city_name": "Stockholm",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          450.0,
+          450.0
+        ],
+        "max": [
+          525.0,
+          525.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 23805,
+      "input_voxel_count": 23805,
+      "shape_zyx": [
+        11,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000513Z__tile_x6_y6.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000513Z__tile_x6_y6.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "0458202fdc6730304a8bc3dd1b39c5e52679eee46a7d2b3b1bf4806e77892f27",
+      "source_geometry_sha256": "eee58be00d4941a00ae73246bb9d9e476b52271dc4926cafd312eb983e8ab482",
+      "source_labels_sha256": "434b0eefefb2d6666a2fed5945c20e52d5a5a16530cedc4439e7507eea768f4e",
+      "input_sha256": "c2ccaec681efcd5328ea7c1bf3d2e717fce93f691a9323b25b3191aaec175e7b",
+      "labeler_sha256": "f0bc6896f7af8304927d1a57cd23ff2662e5c555346cc0f1c75b437b21dfbdcc",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        374,
+        382,
+        23049,
+        0,
+        0,
+        0,
+        0
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y6/ortho.png",
+          "sha256": "258a6daee557926e524332ebbb88489069815a71af8c8ad67642707d0fa8966c",
+          "size_bytes": 2971244,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y6/osm_mask.png",
+          "sha256": "6adc6fe1ae6626f986c0296387fe432fa597c6aae84a27bc165a475a1bf39142",
+          "size_bytes": 17556,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y6/llm_mask.png",
+          "sha256": "45d5c7faa487d0f1a21792ed5fc1bf9006e8b6e45c7556e63202be8f3fa5f764",
+          "size_bytes": 33457,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y6/model_overlay.png",
+          "sha256": "f9fb9a7b111c1e19b7365d525a8e3b8c5c9e0c6e2106daa65073fffb7e96f658",
+          "size_bytes": 1203211,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/stockholm/aoi_19700101T000513Z__tile_x6_y6/model_mask.npz",
+          "sha256": "7ab4c8b4ca707b0d5ff801a4e4605b825576ad2b4fa23e74e300c2897d8efb4d",
+          "size_bytes": 3079,
+          "shape_zyx": [
+            11,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_19700101T000659Z__tile_x2_y5",
+      "split": "test",
+      "tags": [
+        "rome1"
+      ],
+      "city": "rome",
+      "city_name": "Rome",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150.0,
+          375.0
+        ],
+        "max": [
+          225.0,
+          450.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 92273,
+      "input_voxel_count": 92273,
+      "shape_zyx": [
+        75,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_19700101T000659Z__tile_x2_y5.npz",
+      "labeler_path": "data/labeler/aoi_19700101T000659Z__tile_x2_y5.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "29898ae6f10b7dcb40c2eb3d0af7a4379d2d966f3f5e8729326ed30aa82f315e",
+      "source_labels_sha256": "c8cf00845ec8e7c1e336de0147258d9cb0cd0b8919b69732fd29c868f1ded4a7",
+      "input_sha256": "318dd319ecc3e1c02a04187d3399ea5f513e0d59838c89531b8c14a9d45a717a",
+      "labeler_sha256": "87f376629bcf3775dc276b8cce12c85b9666e8abb2d9feac13ff63bf88119733",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        40809,
+        11256,
+        379,
+        4775,
+        29625,
+        4443,
+        986
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/rome/aoi_19700101T000659Z__tile_x2_y5/ortho.png",
+          "sha256": "e9c72d39018a512004e898d9e0af044c5779b0eee805e46d4fe55acb13e7f1db",
+          "size_bytes": 4541631,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/rome/aoi_19700101T000659Z__tile_x2_y5/osm_mask.png",
+          "sha256": "a2d18a6c1efa5ea370f93c5c9f79fee6a09c701b5d1f70987bd4a0587b764829",
+          "size_bytes": 53663,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/rome/aoi_19700101T000659Z__tile_x2_y5/llm_mask.png",
+          "sha256": "fead8feac6d4c379547f640d20d41701eef026ec3d6b17fae9d27f464f53dd0c",
+          "size_bytes": 71832,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/rome/aoi_19700101T000659Z__tile_x2_y5/model_overlay.png",
+          "sha256": "6a776abae29c9fe569d402a4f1fea63533865aea215eb76382dc364f687b70d2",
+          "size_bytes": 2711705,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/rome/aoi_19700101T000659Z__tile_x2_y5/model_mask.npz",
+          "sha256": "88d8e5034ddce6f6dc81727d98668ec6138018b9c274604927bdbed1632b7e19",
+          "size_bytes": 97407,
+          "shape_zyx": [
+            75,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_20260331T161435Z__tile_x1_y1",
+      "split": "train",
+      "tags": [
+        "maciejo"
+      ],
+      "city": "maceio",
+      "city_name": "Maceió",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          75.0,
+          75.0
+        ],
+        "max": [
+          150.0,
+          150.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 51514,
+      "input_voxel_count": 51514,
+      "shape_zyx": [
+        23,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_20260331T161435Z__tile_x1_y1.npz",
+      "labeler_path": "data/labeler/aoi_20260331T161435Z__tile_x1_y1.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "273fb1316266cd71cab6f529bee9d6b83c413c5801b3576c767357c0d7d9014e",
+      "source_geometry_sha256": "e6807aef30f0b193d7710ae845c68de314b19d3954bea4dead59615e78cf5429",
+      "source_labels_sha256": "320cce1ff45508b7cb6f6ee075d452aaf650552c181ddac7a98f46700de31937",
+      "input_sha256": "76d711912b96fa9fe0a601b903a42b53c9f2e43081eb1a5338120cf6de8591ea",
+      "labeler_sha256": "0cecc081e0af7f44d115f35c2cc74a7411337570d2baeda51a657e0f14a8a3f8",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        39277,
+        6113,
+        0,
+        411,
+        4523,
+        162,
+        1028
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/maceio/aoi_20260331T161435Z__tile_x1_y1/ortho.png",
+          "sha256": "30f9337508a3849501252908ed9a899f3fbf55fa4b592e99333bbcb269b96d68",
+          "size_bytes": 6719823,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/maceio/aoi_20260331T161435Z__tile_x1_y1/osm_mask.png",
+          "sha256": "bcf57ea3d0d038de2ce5cd2af38b32fb1354b94bbedd27c1136719d1a0b59bc2",
+          "size_bytes": 12797,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/maceio/aoi_20260331T161435Z__tile_x1_y1/llm_mask.png",
+          "sha256": "af3a82870c4b567bf37a2e6fde9adbb353edb2bad72d139dcc722a95d3b1c987",
+          "size_bytes": 156732,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/maceio/aoi_20260331T161435Z__tile_x1_y1/model_overlay.png",
+          "sha256": "80ecae7c2be6e36053776dcd9ca3449fb144a2fe7343fea906f5ec30f7b386e8",
+          "size_bytes": 3612715,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask_raster": {
+          "path": "data/assets/maceio/aoi_20260331T161435Z__tile_x1_y1/model_mask_raster.png",
+          "sha256": "4f44a564e5193a1aab4b91309794e8c0943e49208bb6b1af703bbafc6a3d9dc3",
+          "size_bytes": 65980,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/maceio/aoi_20260331T161435Z__tile_x1_y1/model_mask.npz",
+          "sha256": "55f23e42864424bccd0d7ad62ea460950b4226d256c6f1d0892d671f4bc0c919",
+          "size_bytes": 46866,
+          "shape_zyx": [
+            23,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "aoi_20260403T100225Z__tile_x1_y1",
+      "split": "validation",
+      "tags": [
+        "maciejo2"
+      ],
+      "city": "maceio",
+      "city_name": "Maceió",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          75.0,
+          75.0
+        ],
+        "max": [
+          150.0,
+          150.0
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 42667,
+      "input_voxel_count": 42667,
+      "shape_zyx": [
+        39,
+        150,
+        150
+      ],
+      "input_path": "data/tiles/aoi_20260403T100225Z__tile_x1_y1.npz",
+      "labeler_path": "data/labeler/aoi_20260403T100225Z__tile_x1_y1.npz",
+      "input_snapshot": "frozen_E3_training_snapshot",
+      "source_snapshot_sha256": "ebf61062df79f2d7d82429a62b55073d174d78f7ed45964932db048d03582731",
+      "source_geometry_sha256": "ed54267b55569ad3c5066423279472b27c3b5aa5b24871f93eeb8d2ee7ccc6af",
+      "source_labels_sha256": "d00eed2b133a47820a574dab4f13a72a326a5905851fae7ca5bd4fd03e114804",
+      "input_sha256": "7de9ad820219bf24d9d8976f6040f9e96cb88eb99087d0c8b67d4c02c1e46e70",
+      "labeler_sha256": "8796a3f6436288b6c823f13223bd2f32f0ff0b5c836a1421411d992e40d4c0c9",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        9495,
+        11240,
+        2,
+        6319,
+        10288,
+        5089,
+        234
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/maceio/aoi_20260403T100225Z__tile_x1_y1/ortho.png",
+          "sha256": "4bf9d7e54d918a6313537f2560dc363629efed9c1f8da50abbfce50e1e493eb0",
+          "size_bytes": 5893278,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/maceio/aoi_20260403T100225Z__tile_x1_y1/osm_mask.png",
+          "sha256": "7d45c69305935e99f74f2d1686364db59e3a08b23bd1c52b4dbd1f0d2553d39a",
+          "size_bytes": 6611,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/maceio/aoi_20260403T100225Z__tile_x1_y1/llm_mask.png",
+          "sha256": "9659bbf4519299f307a213b3d6c7b7a411b51f0057c8c6921862646f046f054a",
+          "size_bytes": 63926,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/maceio/aoi_20260403T100225Z__tile_x1_y1/model_overlay.png",
+          "sha256": "91108f0f6f351f513fd15826f14321f8731a480713e0921a79dd907820b6525d",
+          "size_bytes": 2927807,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask_raster": {
+          "path": "data/assets/maceio/aoi_20260403T100225Z__tile_x1_y1/model_mask_raster.png",
+          "sha256": "70c4420fedf8a6a910cb9bed498a60ebe0768885e0eebd27272ed9ae53766cad",
+          "size_bytes": 43187,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/maceio/aoi_20260403T100225Z__tile_x1_y1/model_mask.npz",
+          "sha256": "6427fb8b6f2675d429792c1fe38816b5090cca1f3ec07061140685c9628f2c8b",
+          "size_bytes": 30095,
+          "shape_zyx": [
+            39,
+            150,
+            150
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "tile_x1_y1",
+      "split": "test",
+      "tags": [],
+      "city": "bydgoszcz",
+      "city_name": "Bydgoszcz",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          75,
+          75
+        ],
+        "max": [
+          150,
+          150
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 55961,
+      "input_voxel_count": 55961,
+      "shape_zyx": [
+        35,
+        151,
+        151
+      ],
+      "input_path": "data/tiles/tile_x1_y1.npz",
+      "labeler_path": "data/labeler/tile_x1_y1.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "4da007f1e88f876b019731af10dfe0697504d4464ad36af60d48ed7d14d6fdef",
+      "source_labels_sha256": "622852b3781cfc7a9f301a6cbcf89f94044e2dcb2004208a21e40ee026a95d91",
+      "input_sha256": "35d30bb31cc1d9c58ff8ed9830498c7191a32ecd3f0d54d4365c740020a3dae9",
+      "labeler_sha256": "f3402a09a37eed9c1ab722fdc6fdf43188e956dbc6770102ce12ad9083787ae6",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        28451,
+        8713,
+        13,
+        5626,
+        8083,
+        758,
+        4317
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/bydgoszcz/tile_x1_y1/ortho.png",
+          "sha256": "902e107c4208ad46e77aa8d7e09b89e5cfc3fa2420154857c406afef7e606ed8",
+          "size_bytes": 6144563,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/bydgoszcz/tile_x1_y1/osm_mask.png",
+          "sha256": "4305826f8ab565be0fb8f6d5964034911437d595b489e048f54760b32f1633c8",
+          "size_bytes": 18074,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/bydgoszcz/tile_x1_y1/llm_mask.png",
+          "sha256": "328729dda7fca6c84807fce769803492e51967a871b22f4b1ec6ab455d5dffcb",
+          "size_bytes": 125421,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/bydgoszcz/tile_x1_y1/model_overlay.png",
+          "sha256": "0a8545190b89c97891fc989734f029c3863e63640a5fa4eb81532b9e7b18fef9",
+          "size_bytes": 3127142,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask_raster": {
+          "path": "data/assets/bydgoszcz/tile_x1_y1/model_mask_raster.png",
+          "sha256": "4f2284883f3a4d8ac4de98bb85f239f55c0e82dce67aedb5efaa0370c448745e",
+          "size_bytes": 46924,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/bydgoszcz/tile_x1_y1/model_mask.npz",
+          "sha256": "53397c469ddfbda9e4449697f10a809c4a68a42173071407662345c734cb05e3",
+          "size_bytes": 54993,
+          "shape_zyx": [
+            35,
+            151,
+            151
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "tile_x2_y1",
+      "split": "test",
+      "tags": [],
+      "city": "bydgoszcz",
+      "city_name": "Bydgoszcz",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          150,
+          75
+        ],
+        "max": [
+          225,
+          150
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 64882,
+      "input_voxel_count": 64882,
+      "shape_zyx": [
+        41,
+        151,
+        151
+      ],
+      "input_path": "data/tiles/tile_x2_y1.npz",
+      "labeler_path": "data/labeler/tile_x2_y1.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "127083bc2e62e4f1363e9872ac8b2e0eb4c1308aff48cefda3e01c704b934e4c",
+      "source_labels_sha256": "1abc42b42e3ddd8a2d1795e39fa6631eee9e25ad009d496e6d8a03818ac647a1",
+      "input_sha256": "55823804c12b51b75f72c03baf46e3e4938bb2660752d1eea02265188f2144ed",
+      "labeler_sha256": "280e87266de33c4c0fffecc2c53e6862bd735699d320f09096c41d1388c011c6",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        39428,
+        6994,
+        0,
+        6642,
+        9963,
+        869,
+        986
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/bydgoszcz/tile_x2_y1/ortho.png",
+          "sha256": "9393ff93192907aeabedfa2fbf1143f35d4ce7ad576622442e96b25503f42d9c",
+          "size_bytes": 6287467,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/bydgoszcz/tile_x2_y1/osm_mask.png",
+          "sha256": "cc8b739585c5d98259c1df793de163c23d1ee6c96a2a007159e79bb180202ba6",
+          "size_bytes": 21382,
+          "width_height": [
+            1024,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/bydgoszcz/tile_x2_y1/llm_mask.png",
+          "sha256": "129b6303fec58488ce89fb0c87fb4d7f0b94d7c4dd6086a99d31645310eb88a4",
+          "size_bytes": 104924,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/bydgoszcz/tile_x2_y1/model_overlay.png",
+          "sha256": "560362328cc09ce17ab1d8b9229819d497cb196b98905238d43e769c8545ebd2",
+          "size_bytes": 3215833,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask_raster": {
+          "path": "data/assets/bydgoszcz/tile_x2_y1/model_mask_raster.png",
+          "sha256": "d7cd3d840d8e7560430a8b5ac38cf27c7845a5819f3e2aba39c8f27793b2c027",
+          "size_bytes": 53645,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/bydgoszcz/tile_x2_y1/model_mask.npz",
+          "sha256": "28922538da3490b57f7c6b0f9ae4838a7c31eea8091fff11216c5f54b8ec60f6",
+          "size_bytes": 74690,
+          "shape_zyx": [
+            41,
+            151,
+            151
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    },
+    {
+      "id": "tile_x3_y1",
+      "split": "test",
+      "tags": [],
+      "city": "bydgoszcz",
+      "city_name": "Bydgoszcz",
+      "annotation_status": "ready",
+      "raster_bounds_xy": {
+        "min": [
+          225,
+          75
+        ],
+        "max": [
+          300,
+          150
+        ]
+      },
+      "voxel_size_m": 0.5,
+      "current_voxel_count": 69561,
+      "input_voxel_count": 69561,
+      "shape_zyx": [
+        89,
+        151,
+        151
+      ],
+      "input_path": "data/tiles/tile_x3_y1.npz",
+      "labeler_path": "data/labeler/tile_x3_y1.npz",
+      "input_snapshot": "current_labeler_export",
+      "source_snapshot_sha256": null,
+      "source_geometry_sha256": "9c5a952a9d70b53899481c4973c51540bbacf834aad0a1dce9a9bb23256739dc",
+      "source_labels_sha256": "6e14f95331f603c6bc0cf102b0faac57cb51d4a99046002b0db462848f7adcd5",
+      "input_sha256": "019169e4357b8f523017f794c052ab80d9362301f15f52ec534c97fe8f076d7e",
+      "labeler_sha256": "43291d97e82a1fd14aaa1e7ea82d05f77fc8ef19048aaf902a8eb8e75d29105b",
+      "geometry_matches_current_labeler": true,
+      "labels_changed_since_training": 0,
+      "class_counts_current": [
+        0,
+        53662,
+        4263,
+        1283,
+        2789,
+        6850,
+        574,
+        140
+      ],
+      "assets": {
+        "ortho": {
+          "path": "data/assets/bydgoszcz/tile_x3_y1/ortho.png",
+          "sha256": "cb5547e78c97f18e9a772a4b4e193245b2c4fa9cba232e1120950e87ea072c92",
+          "size_bytes": 6345410,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGBA",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "osm_mask": {
+          "path": "data/assets/bydgoszcz/tile_x3_y1/osm_mask.png",
+          "sha256": "c8bf3d8a661640a46aec4c73c3d6e904d546fc49e337621977195a4d98f04dfb",
+          "size_bytes": 43690,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "llm_mask": {
+          "path": "data/assets/bydgoszcz/tile_x3_y1/llm_mask.png",
+          "sha256": "167c59ebb27e44784d907cc8af24a304875ad1160145f0ba9e9d564b5e3eef45",
+          "size_bytes": 151426,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_overlay": {
+          "path": "data/assets/bydgoszcz/tile_x3_y1/model_overlay.png",
+          "sha256": "597b56392e302d483f10589ba318a5d0f2f1103a5799abc38af2e291e7b29ce1",
+          "size_bytes": 3246987,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask_raster": {
+          "path": "data/assets/bydgoszcz/tile_x3_y1/model_mask_raster.png",
+          "sha256": "8b90fd47b2e82b67db3e5699520a9cf67c9481675d088c147dec6b7bfb0c9dac",
+          "size_bytes": 56373,
+          "width_height": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "provenance": "original_labeler_file_unmodified"
+        },
+        "model_mask": {
+          "path": "data/assets/bydgoszcz/tile_x3_y1/model_mask.npz",
+          "sha256": "35b2a8837e0378af37be44968c79308ffc898ac3ae8f9fafea55594f5f3b95e3",
+          "size_bytes": 82878,
+          "shape_zyx": [
+            89,
+            151,
+            151
+          ],
+          "provenance": "exact_prepared_input_ortho_array"
+        }
+      }
+    }
+  ]
+}

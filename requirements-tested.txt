@@ -1,0 +1,3 @@
+# Tested numerical runtime. Install the desired CPU/CUDA torch build first.
+numpy==2.2.6
+torch==2.5.1

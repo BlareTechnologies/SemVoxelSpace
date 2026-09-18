@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "scope": "sample_only",
+  "exported_at": "2026-09-17T12:43:13.554184+00:00",
+  "paper_source": "docs/paper_voxel_space_classification/drafts/ieee_draft_v4_en.md",
+  "paper_source_sha256": "be29a5551b5f8f9ad06b7e3a4407a24f1d0b0088f9476c39201f1c043c604117",
+  "source_workspace_sha256": "49730cc955b1838c0e3bd39317429512db82fe42fa53a2d04ef6e88ce265c811",
+  "tile_count": 30,
+  "split_counts": {
+    "test": 10,
+    "train": 16,
+    "additional": 3,
+    "validation": 1
+  },
+  "current_voxels_by_split": {
+    "train": 1263003,
+    "validation": 42667,
+    "test": 659673,
+    "additional": 212167
+  },
+  "total_current_voxels": 2177510,
+  "models": [
+    {
+      "variant": "E0",
+      "source_job": "e3water_ladder_E0",
+      "source_checkpoint_sha256": "8ecfc48b151658ff331582d5f0998663fca7d3a14e654b7a56f481d971c03de6",
+      "weights_sha256": "706cfc3f88dfbf0c078ee399d4ffbb7f367051e464853b36fd2a811a577f1e39",
+      "parameter_count": 5695464,
+      "benchmark_mean_iou": 0.3237
+    },
+    {
+      "variant": "E1",
+      "source_job": "e3water_ladder_E1",
+      "source_checkpoint_sha256": "dd6d9a5031a84dc0715811a603d05b972d4be2a1a143329cbaa16041d7095b3e",
+      "weights_sha256": "6597f45bc91d52c400e524e6f3173dc38e0b4b4b16dd512647a836cffd87abaf",
+      "parameter_count": 5697256,
+      "benchmark_mean_iou": 0.4639
+    },
+    {
+      "variant": "E2",
+      "source_job": "e3water_ladder_E2",
+      "source_checkpoint_sha256": "bf4721d79d64260a84e74fe704f1522c7e111b81b658122546a14ba86d9ad8f5",
+      "weights_sha256": "804d032ea4faeca66abd5be74a71a9ace14c8566414e7e17a58a72067e85ba14",
+      "parameter_count": 5699944,
+      "benchmark_mean_iou": 0.5585
+    },
+    {
+      "variant": "E3",
+      "source_job": "20260621T164812_train_e3water",
+      "source_checkpoint_sha256": "ee6c2f4ddba75e81ab75ac9226855aabd40c517942f4cbf9842e83d059ed4585",
+      "weights_sha256": "48ee52853ef728a6dc1a9dcf33c98e4df492c5f4d72573e3de5f5735d737b7d1",
+      "parameter_count": 5702632,
+      "benchmark_mean_iou": 0.6266
+    }
+  ],
+  "source_corpus": {
+    "tile_count": 175,
+    "split_counts": {
+      "train": 127,
+      "validation": 14,
+      "test": 25,
+      "additional": 9
+    },
+    "current_voxels_by_split": {
+      "train": 10052339,
+      "validation": 934727,
+      "test": 1539265,
+      "additional": 581828
+    },
+    "total_current_voxels": 13108159
+  },
+  "city_counts": {
+    "berlin": 3,
+    "bydgoszcz": 3,
+    "london": 3,
+    "los-angeles": 3,
+    "maceio": 3,
+    "manchester": 3,
+    "new-york": 3,
+    "paris": 3,
+    "rome": 1,
+    "stockholm": 3,
+    "tokyo": 2
+  },
+  "tiles_with_label_changes_after_training": [],
+  "tiles_with_geometry_changes_after_training": [],
+  "paper_count_discrepancy": "Paper v4 calls 150 tiles training/validation; checkpoint manifests contain 127 train + 14 validation. Nine additional New York tiles were not in these model runs. The expanded benchmark has 25 tiles."
+}
